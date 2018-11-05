@@ -1,0 +1,3502 @@
+[
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "90744.00",
+  "job_titles": "WATER RATE TAKER",
+  "id": 1,
+  "name": "AARON, ELVIA J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 2,
+  "name": "AARON, JEFFERY M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 3,
+  "name": "AARON, KARINA"
+  },
+  {
+  "department": "GENERAL SERVICES",
+  "employee_annual_salary": "89880.00",
+  "job_titles": "CHIEF CONTRACT EXPEDITER",
+  "id": 4,
+  "name": "AARON, KIMBERLEI R"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "106836.00",
+  "job_titles": "CIVIL ENGINEER IV",
+  "id": 5,
+  "name": "ABAD JR, VICENTE M"
+  },
+  {
+  "department": "CITY COUNCIL",
+  "employee_annual_salary": "70764.00",
+  "job_titles": "ASST TO THE ALDERMAN",
+  "id": 6,
+  "name": "ABARCA, ANABEL"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "41849.60",
+  "job_titles": "GENERAL LABORER - DSS",
+  "id": 7,
+  "name": "ABARCA, EMMANUEL"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "20051.20",
+  "job_titles": "TRAFFIC CONTROL AIDE-HOURLY",
+  "id": 8,
+  "name": "ABASCAL, REECE E"
+  },
+  {
+  "department": "CITY COUNCIL",
+  "employee_annual_salary": "49452.00",
+  "job_titles": "STAFF ASST TO THE ALDERMAN",
+  "id": 9,
+  "name": "ABBASI, CHRISTOPHER"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "93600.00",
+  "job_titles": "ELECTRICAL MECHANIC",
+  "id": 10,
+  "name": "ABBATACOLA, ROBERT J"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "100320.00",
+  "job_titles": "FIRE ENGINEER-EMT",
+  "id": 11,
+  "name": "ABBATEMARCO, JAMES J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 12,
+  "name": "ABBATE, TERRY M"
+  },
+  {
+  "department": "FAMILY & SUPPORT",
+  "employee_annual_salary": "2756.00",
+  "job_titles": "FOSTER GRANDPARENT",
+  "id": 13,
+  "name": "ABBOTT, BETTY L"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46896.00",
+  "job_titles": "CLERK III",
+  "id": 14,
+  "name": "ABBOTT, LYNISE M"
+  },
+  {
+  "department": "IPRA",
+  "employee_annual_salary": "73920.00",
+  "job_titles": "INVESTIGATOR - IPRA II",
+  "id": 15,
+  "name": "ABBRUZZESE, WILLIAM J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "74028.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 16,
+  "name": "ABDALLAH, ZAID"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 17,
+  "name": "ABDELHADI, ABDALMAHD"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "99228.00",
+  "job_titles": "FIREFIGHTER (PER ARBITRATORS AWARD)-PARAMEDIC",
+  "id": 18,
+  "name": "ABDELLATIF, AREF R"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 19,
+  "name": "ABDELMAJEID, AZIZ"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "88596.00",
+  "job_titles": "FIREFIGHTER/PARAMEDIC",
+  "id": 20,
+  "name": "ABDOLLAHZADEH, ALI"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "108228.00",
+  "job_titles": "ENGINEERING TECHNICIAN VI",
+  "id": 21,
+  "name": "ABDUL-KARIM, MUHAMMAD A"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "92682.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 22,
+  "name": "ABDULLAH, DANIEL N"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "111474.00",
+  "job_titles": "LIEUTENANT",
+  "id": 23,
+  "name": "ABDULLAH, KEVIN"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "17846.40",
+  "job_titles": "CROSSING GUARD",
+  "id": 24,
+  "name": "ABDULLAH, LAKENYA N"
+  },
+  {
+  "department": "GENERAL SERVICES",
+  "employee_annual_salary": "93600.00",
+  "job_titles": "ELECTRICAL MECHANIC-AUTO-POLICE MTR MNT",
+  "id": 25,
+  "name": "ABDULLAH, RASHAD J"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "58536.00",
+  "job_titles": "CIVIL ENGINEER II",
+  "id": 26,
+  "name": "ABDULSATTAR, MUDHAR"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "41849.60",
+  "job_titles": "GENERAL LABORER - DSS",
+  "id": 27,
+  "name": "ABDUL-SHAKUR, TAHIR"
+  },
+  {
+  "department": "FAMILY & SUPPORT",
+  "employee_annual_salary": "2756.00",
+  "job_titles": "FOSTER GRANDPARENT",
+  "id": 28,
+  "name": "ABDULWAHAB, ABUUBAIDA"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 29,
+  "name": "ABEJERO, JASON V"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "70380.00",
+  "job_titles": "PARAMEDIC",
+  "id": 30,
+  "name": "ABERCROMBIE IV, EARL S"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "MOTOR TRUCK DRIVER",
+  "id": 31,
+  "name": "ABERCROMBIE, TIMOTHY"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "25334.40",
+  "job_titles": "LIBRARY ASSOCIATE - HOURLY",
+  "id": 32,
+  "name": "ABIOYE, ADEWOLE A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46668.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 33,
+  "name": "ABNEY, PATRICK"
+  },
+  {
+  "department": "FAMILY & SUPPORT",
+  "employee_annual_salary": "106836.00",
+  "job_titles": "SENIOR PROGRAMMER/ANALYST",
+  "id": 34,
+  "name": "ABOUELKHEIR, HASSAN A"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "106836.00",
+  "job_titles": "CIVIL ENGINEER IV",
+  "id": 35,
+  "name": "ABRAHAM, GIRLEY T"
+  },
+  {
+  "department": "BUSINESS AFFAIRS",
+  "employee_annual_salary": "98616.00",
+  "job_titles": "ENGINEERING TECHNICIAN V",
+  "id": 36,
+  "name": "ABRAHAM, GODWIN K"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "70380.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 37,
+  "name": "ABRAHAM, NANCY A"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "59652.00",
+  "job_titles": "SUPERVISING TRAFFIC CONTROL AIDE",
+  "id": 38,
+  "name": "ABRAMAVICIUS, ANNA A"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 39,
+  "name": "ABRAMS, DANIELLE T"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 40,
+  "name": "ABRAMS, HENRY L"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "125190.00",
+  "job_titles": "AMBULANCE COMMANDER",
+  "id": 41,
+  "name": "ABRAMSKI, JOHN E"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 42,
+  "name": "ABRAMS, SAMUEL A"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "86538.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 43,
+  "name": "ABRATANSKI, MARK A"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "91062.40",
+  "job_titles": "SEWER BRICKLAYER",
+  "id": 44,
+  "name": "ABREU, DILAN"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "75961.60",
+  "job_titles": "TREE TRIMMER",
+  "id": 45,
+  "name": "ABREU, EDWIN"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "98799.96",
+  "job_titles": "TRAFFIC SIGNAL REPAIRMAN",
+  "id": 46,
+  "name": "ABREU, ROBERTO J"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "68028.00",
+  "job_titles": "PERSONAL COMPUTER OPERATOR III",
+  "id": 47,
+  "name": "ABREU, ROSITA"
+  },
+  {
+  "department": "FAMILY & SUPPORT",
+  "employee_annual_salary": "2756.00",
+  "job_titles": "SENIOR COMPANION",
+  "id": 48,
+  "name": "ABREU, VICTOR"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "96414.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 49,
+  "name": "ABREU, VICTOR"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 50,
+  "name": "ABRON, FLOYD"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "93600.00",
+  "job_titles": "ELECTRICAL MECHANIC",
+  "id": 51,
+  "name": "ABRONS, KENNETH L"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "78204.00",
+  "job_titles": "SENIOR ENVIRONMENTAL INSPECTOR",
+  "id": 52,
+  "name": "ABUBAKER, MOHAMMED G"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46668.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 53,
+  "name": "ABUDAYEH, ELIAS"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "98280.00",
+  "job_titles": "PLUMBER",
+  "id": 54,
+  "name": "ABUHASHISH, AWWAD"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46668.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 55,
+  "name": "ABURIZEG, MOHAMMAD"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "89676.00",
+  "job_titles": "CIVIL ENGINEER II",
+  "id": 56,
+  "name": "ABUTALEB, AHMAD H"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "91752.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS EVIDENCE TECHNICIAN)",
+  "id": 57,
+  "name": "ABUZANAT, ABDALLA H"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "81536.00",
+  "job_titles": "CONSTRUCTION LABORER",
+  "id": 58,
+  "name": "ACCARDO, ANTHONY D"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 59,
+  "name": "ACCARDO, JENNIFER A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 60,
+  "name": "ACCARDO, THOMAS J"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "115356.00",
+  "job_titles": "DIVISION SUPERINTENDENT",
+  "id": 61,
+  "name": "ACCIARI, MICHAEL G"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73964.80",
+  "job_titles": "MOTOR TRUCK DRIVER",
+  "id": 62,
+  "name": "ACCIARI, NICHOLAS B"
+  },
+  {
+  "department": "MAYOR'S OFFICE",
+  "employee_annual_salary": "55008.00",
+  "job_titles": "ADMINISTRATIVE ASST",
+  "id": 63,
+  "name": "ACCURSO, MARY K"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 64,
+  "name": "ACEVEDO, AARON F"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 65,
+  "name": "ACEVEDO, ALEJANDRO R"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 66,
+  "name": "ACEVEDO, BIENVENIDO"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 67,
+  "name": "ACEVEDO, CLARISSA"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 68,
+  "name": "ACEVEDO, EDWARD"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "94530.00",
+  "job_titles": "FIREFIGHTER",
+  "id": 69,
+  "name": "ACEVEDO, EDWIN C"
+  },
+  {
+  "department": "CITY COUNCIL",
+  "employee_annual_salary": "20004.00",
+  "job_titles": "ALDERMANIC AIDE",
+  "id": 70,
+  "name": "ACEVEDO, ELIAS M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "66606.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 71,
+  "name": "ACEVEDO, ERIC"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "118248.00",
+  "job_titles": "LIEUTENANT-EMT",
+  "id": 72,
+  "name": "ACEVEDO, GILBERT"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "74028.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 73,
+  "name": "ACEVEDO, ILIA"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 74,
+  "name": "ACEVEDO, JANETE"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 75,
+  "name": "ACEVEDO, JASON M"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "81536.00",
+  "job_titles": "ASPHALT LABORER",
+  "id": 76,
+  "name": "ACEVEDO, JAVIER"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 77,
+  "name": "ACEVEDO, JEFF"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "51216.00",
+  "job_titles": "POLICE COMMUNICATIONS OPERATOR II",
+  "id": 78,
+  "name": "ACEVEDO, JOSUE"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "FIREFIGHTER",
+  "id": 79,
+  "name": "ACEVEDO, MANUEL A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "98016.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 80,
+  "name": "ACEVEDO, MARCO A"
+  },
+  {
+  "department": "BUSINESS AFFAIRS",
+  "employee_annual_salary": "87324.00",
+  "job_titles": "SENIOR PUBLIC INFORMATION OFFICER",
+  "id": 81,
+  "name": "ACEVEDO, MARISOL"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 82,
+  "name": "ACEVEDO, MARTIN J"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "65472.00",
+  "job_titles": "AVIATION SECURITY OFFICER",
+  "id": 83,
+  "name": "ACEVEDO, MIKE"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 84,
+  "name": "ACEVEDO, NADINE M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 85,
+  "name": "ACEVEDO, RAFAEL"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 86,
+  "name": "ACEVES, JUAN C"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 87,
+  "name": "ACEVEZ, ANTHONY E"
+  },
+  {
+  "department": "LAW",
+  "employee_annual_salary": "124572.00",
+  "job_titles": "CHIEF ASST CORPORATION COUNSEL",
+  "id": 88,
+  "name": "ACHILLES, AMBER L"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 89,
+  "name": "ACHILLY, LISA S"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "92682.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 90,
+  "name": "ACHTEL, SCOTT R"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "70380.00",
+  "job_titles": "PARAMEDIC",
+  "id": 91,
+  "name": "ACKERMANN, MICHAEL A"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "17024.80",
+  "job_titles": "CROSSING GUARD",
+  "id": 92,
+  "name": "ACKLIN, QIANA D"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46668.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 93,
+  "name": "ACOSTA, JAIME A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 94,
+  "name": "ACOSTA, JESSE A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46668.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 95,
+  "name": "ACOSTA, MARK"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "67452.00",
+  "job_titles": "LIBRARY ASSOCIATE",
+  "id": 96,
+  "name": "ACOSTA, MARTHA A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 97,
+  "name": "ACOSTA, MICHELE D"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46668.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 98,
+  "name": "ACOSTA, NATALIE"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 99,
+  "name": "ACOSTA, PABLO S"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "56928.00",
+  "job_titles": "PARKING ENFORCEMENT AIDE",
+  "id": 100,
+  "name": "ACOSTA, ROSA M"
+  },
+  {
+  "department": "GENERAL SERVICES",
+  "employee_annual_salary": "81536.00",
+  "job_titles": "CONSTRUCTION LABORER",
+  "id": 101,
+  "name": "ACRES, ANTHONY E"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 102,
+  "name": "ACSVECS, ZAIREH"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 103,
+  "name": "ADAIR, KENNETH R"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 104,
+  "name": "ADAIR, STEVEN"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "12844.00",
+  "job_titles": "LIBRARY PAGE",
+  "id": 105,
+  "name": "ADALWULF, AUDREY E"
+  },
+  {
+  "department": "FINANCE",
+  "employee_annual_salary": "65894.40",
+  "job_titles": "BOOTER - PARKING",
+  "id": 106,
+  "name": "ADAMCZYK JR, JAN"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "90918.00",
+  "job_titles": "FIREFIGHTER",
+  "id": 107,
+  "name": "ADAMCZYK, LAWRENCE M"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "43222.40",
+  "job_titles": "CUSTODIAL WORKER",
+  "id": 108,
+  "name": "ADAME, PEDRO"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 109,
+  "name": "ADAMIAK, SIMON P"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "98016.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 110,
+  "name": "ADAMIK, JEFFREY S"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "88410.00",
+  "job_titles": "PARAMEDIC I/C",
+  "id": 111,
+  "name": "ADAMIK, MATTHEW W"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "MOTOR TRUCK DRIVER",
+  "id": 112,
+  "name": "ADAM, MICHAEL A"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "86538.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 113,
+  "name": "ADAMOW, JEFFREY W"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "76876.80",
+  "job_titles": "FOREMAN OF MOTOR TRUCK DRIVERS",
+  "id": 114,
+  "name": "ADAM, RICHARD"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 115,
+  "name": "ADAMS, CRAIG W"
+  },
+  {
+  "department": "CULTURAL AFFAIRS",
+  "employee_annual_salary": "83340.00",
+  "job_titles": "SPECIAL EVENTS COORD III",
+  "id": 116,
+  "name": "ADAMS, DAVID E"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "57696.00",
+  "job_titles": "LIBRARIAN I",
+  "id": 117,
+  "name": "ADAMS, DEANIE M"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "58800.00",
+  "job_titles": "PROGRAM DEVELOPMENT COORD",
+  "id": 118,
+  "name": "ADAMS, DELRICE"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "97812.00",
+  "job_titles": "CLINICAL THERAPIST III",
+  "id": 119,
+  "name": "ADAMS, DENIS H"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 120,
+  "name": "ADAMS, DWAYNE D"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "18699.20",
+  "job_titles": "CROSSING GUARD",
+  "id": 121,
+  "name": "ADAMS EL, WARREN"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "81536.00",
+  "job_titles": "ASPHALT LABORER",
+  "id": 122,
+  "name": "ADAMS, ERWIN"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "51516.00",
+  "job_titles": "DATA ENTRY OPERATOR",
+  "id": 123,
+  "name": "ADAMS, EULA M"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 124,
+  "name": "ADAMS, GARY W"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "62496.00",
+  "job_titles": "AVIATION SECURITY OFFICER",
+  "id": 125,
+  "name": "ADAMS, GREGORY M"
+  },
+  {
+  "department": "BUSINESS AFFAIRS",
+  "employee_annual_salary": "74676.00",
+  "job_titles": "ADMINISTRATIVE ASST III",
+  "id": 126,
+  "name": "ADAMS, GREGORY W"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "81536.00",
+  "job_titles": "CONCRETE LABORER",
+  "id": 127,
+  "name": "ADAMS, HAROLD"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "98016.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 128,
+  "name": "ADAMS, JAMES W"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 129,
+  "name": "ADAMS JR, JERRY M"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "86538.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 130,
+  "name": "ADAMS JR, JOHN W"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "54654.00",
+  "job_titles": "FIREFIGHTER-EMT (RECRUIT)",
+  "id": 131,
+  "name": "ADAMSKI, JERRY J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "74028.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 132,
+  "name": "ADAMSKI, ROBERT"
+  },
+  {
+  "department": "COMMUNITY DEVELOPMENT",
+  "employee_annual_salary": "64992.00",
+  "job_titles": "ACCOUNTING TECHNICIAN II",
+  "id": 133,
+  "name": "ADAMS, LEAH"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "13520.00",
+  "job_titles": "LIBRARY PAGE",
+  "id": 134,
+  "name": "ADAMS, MARJORIE E"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "66606.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 135,
+  "name": "ADAMS, MATTHEW"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "98016.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 136,
+  "name": "ADAMS, MICHAEL A"
+  },
+  {
+  "department": "GENERAL SERVICES",
+  "employee_annual_salary": "44824.00",
+  "job_titles": "WATCHMAN",
+  "id": 137,
+  "name": "ADAMS, MICHAEL J"
+  },
+  {
+  "department": "LAW",
+  "employee_annual_salary": "81948.00",
+  "job_titles": "LEGAL SECRETARY",
+  "id": 138,
+  "name": "ADAMS, OLIVIA I"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "MOTOR TRUCK DRIVER",
+  "id": 139,
+  "name": "ADAMS, QUAN R"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "68556.00",
+  "job_titles": "INFORMATION COORD",
+  "id": 140,
+  "name": "ADAMS, QUENJANA"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "110970.00",
+  "job_titles": "LIEUTENANT-EMT",
+  "id": 141,
+  "name": "ADAMS, RAYMOND T"
+  },
+  {
+  "department": "BUILDINGS",
+  "employee_annual_salary": "100470.00",
+  "job_titles": "PLUMBING INSPECTOR",
+  "id": 142,
+  "name": "ADAMS, REGINALD K"
+  },
+  {
+  "department": "BUILDINGS",
+  "employee_annual_salary": "94868.80",
+  "job_titles": "VENTILATION AND FURNACE INSPECTOR",
+  "id": 143,
+  "name": "ADAMS, ROBERT L"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "14684.80",
+  "job_titles": "CROSSING GUARD - PER CBA",
+  "id": 144,
+  "name": "ADAMS, ROSITA"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 145,
+  "name": "ADAMS, RYAN"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "97812.00",
+  "job_titles": "LIBRARIAN IV",
+  "id": 146,
+  "name": "ADAMS, SHERYLL A"
+  },
+  {
+  "department": "BUSINESS AFFAIRS",
+  "employee_annual_salary": "91476.00",
+  "job_titles": "SUPVSR OF COMPENSATION",
+  "id": 147,
+  "name": "ADAMS, STANLEY"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "106836.00",
+  "job_titles": "CIVIL ENGINEER IV",
+  "id": 148,
+  "name": "ADAMS, TANERA C"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "74676.00",
+  "job_titles": "PUBLIC HEALTH ADMINISTRATOR I",
+  "id": 149,
+  "name": "ADAMS THOMAS, CHEEAREASE R"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "94584.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 150,
+  "name": "ADAMS, TIMOTHY J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 151,
+  "name": "ADAMS, VICKY M"
+  },
+  {
+  "department": "FINANCE",
+  "employee_annual_salary": "59184.00",
+  "job_titles": "ACCOUNTING TECHNICIAN I",
+  "id": 152,
+  "name": "ADAPON, NENITA P"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 153,
+  "name": "ADCOCK, DAVID G"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "81536.00",
+  "job_titles": "CONCRETE LABORER",
+  "id": 154,
+  "name": "ADCOCK, TOMMY W"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 155,
+  "name": "ADDANTE, VINCENZO"
+  },
+  {
+  "department": "IPRA",
+  "employee_annual_salary": "54000.00",
+  "job_titles": "INVESTIGATOR - IPRA I",
+  "id": 156,
+  "name": "ADDINGTON, MARC"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "16317.60",
+  "job_titles": "LIBRARY CLERK - HOURLY",
+  "id": 157,
+  "name": "ADDISON, LATASHA D"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "67452.00",
+  "job_titles": "LIBRARY ASSOCIATE",
+  "id": 158,
+  "name": "ADDISON, LEWIS"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "121464.00",
+  "job_titles": "LIEUTENANT",
+  "id": 159,
+  "name": "ADDUCI, MARK A"
+  },
+  {
+  "department": "BUILDINGS",
+  "employee_annual_salary": "109272.00",
+  "job_titles": "BUILDING/CONSTRUCTION INSPECTOR",
+  "id": 160,
+  "name": "ADEBAYO, BENJAMIN B"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 161,
+  "name": "ADE, JAMES P"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "111474.00",
+  "job_titles": "SERGEANT",
+  "id": 162,
+  "name": "ADE, JAMES P"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "72492.00",
+  "job_titles": "SUPERVISING DISEASE CONTROL INVESTIGATOR - EXCL",
+  "id": 163,
+  "name": "ADEKA, IBILOLA I"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 164,
+  "name": "ADELAKUN, NIKTE E"
+  },
+  {
+  "department": "BUSINESS AFFAIRS",
+  "employee_annual_salary": "120192.00",
+  "job_titles": "DEPUTY COMMISSIONER",
+  "id": 165,
+  "name": "ADELIZZI, JOY A"
+  },
+  {
+  "department": "CITY COUNCIL",
+  "employee_annual_salary": "19572.00",
+  "job_titles": "LEGISLATIVE AIDE",
+  "id": 166,
+  "name": "ADELMAN, BRUCE E"
+  },
+  {
+  "department": "FINANCE",
+  "employee_annual_salary": "97812.00",
+  "job_titles": "ACCOUNTANT IV",
+  "id": 167,
+  "name": "ADENI, MOHAMED K"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "97812.00",
+  "job_titles": "ENVIRONMENTAL ENGINEER II",
+  "id": 168,
+  "name": "ADESANYA, EMMANUEL S"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "73382.40",
+  "job_titles": "LABORER - APPRENTICE",
+  "id": 169,
+  "name": "ADEWOLE, KAREEM A"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "97812.00",
+  "job_titles": "CIVIL ENGINEER III",
+  "id": 170,
+  "name": "ADEYEMO, HORATIO A"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "71292.00",
+  "job_titles": "PUBLIC HEALTH ADMINISTRATOR I",
+  "id": 171,
+  "name": "ADEYEMO, MOJIROLA M"
+  },
+  {
+  "department": "LAW",
+  "employee_annual_salary": "58908.00",
+  "job_titles": "ASST CORPORATION COUNSEL",
+  "id": 172,
+  "name": "ADKINS, BRITTANY L"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "75240.00",
+  "job_titles": "POLICE COMMUNICATIONS OPERATOR I",
+  "id": 173,
+  "name": "ADKINS, KERRI M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 174,
+  "name": "ADKINS, MARC D"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "93840.00",
+  "job_titles": "FIRE COMMUNICATIONS OPERATOR II",
+  "id": 175,
+  "name": "ADKINS, WILLIAM J"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "25334.40",
+  "job_titles": "LIBRARY ASSOCIATE - HOURLY",
+  "id": 176,
+  "name": "ADLER, LAURA R"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 177,
+  "name": "ADLER, TRACY L"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 178,
+  "name": "ADLESICK JR, JOSEPH D"
+  },
+  {
+  "department": "BUSINESS AFFAIRS",
+  "employee_annual_salary": "71292.00",
+  "job_titles": "ADMINISTRATIVE ASST III",
+  "id": 179,
+  "name": "ADOLFIE, ELIZABETH U"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 180,
+  "name": "ADOLFIE JR, WALTER S"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "100320.00",
+  "job_titles": "FIRE ENGINEER-EMT",
+  "id": 181,
+  "name": "ADREANI, JOHN J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "107988.00",
+  "job_titles": "SERGEANT",
+  "id": 182,
+  "name": "ADRIAN, CHERI A"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "119880.00",
+  "job_titles": "ASST CHIEF AIRPORT OPERATIONS SUPVSR",
+  "id": 183,
+  "name": "ADRIAN, JOHN P"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 184,
+  "name": "AFFANEH, MAHIR A"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "99840.00",
+  "job_titles": "PSYCHIATRIST",
+  "id": 185,
+  "name": "AFROZ, NAYYAR"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "122856.00",
+  "job_titles": "CHIEF ENGINEER OF SEWERS",
+  "id": 186,
+  "name": "AGAR, BULENT B"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 187,
+  "name": "AGEE, LAWRENCE"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 188,
+  "name": "AGIN, LAURA J"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 189,
+  "name": "AGNEW, ANTONIO E"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "100884.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 190,
+  "name": "AGOSTA, JOSEPH J"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "98016.00",
+  "job_titles": "FIREFIGHTER (PER ARBITRATORS AWARD)",
+  "id": 191,
+  "name": "AGOSTINELLI, MICHAEL A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 192,
+  "name": "AGOSTO, HECTOR I"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "59772.00",
+  "job_titles": "BRIDGE OPERATOR",
+  "id": 193,
+  "name": "AGREDANO, MARIO"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "111474.00",
+  "job_titles": "SERGEANT",
+  "id": 194,
+  "name": "AGRON, EDUARDO"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 195,
+  "name": "AGRON, EDWIN"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 196,
+  "name": "AGSALUD, FERNAN S"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 197,
+  "name": "AGSALUD JR, JUANITO S"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "74028.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 198,
+  "name": "AGUADA, GILBERT GLENN"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "74028.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 199,
+  "name": "AGUAS, ALEX"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "70380.00",
+  "job_titles": "FIREFIGHTER-EMT (RECRUIT)",
+  "id": 200,
+  "name": "AGUAYO, BRAULIO"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "89568.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 201,
+  "name": "AGUAYO, LUIS A"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "65028.00",
+  "job_titles": "SENIOR EMERGENCY MANAGEMENT COORD",
+  "id": 202,
+  "name": "AGUET, PHILLIP R"
+  },
+  {
+  "department": "LAW",
+  "employee_annual_salary": "109608.00",
+  "job_titles": "ASST CORPORATION COUNSEL SUPVSR",
+  "id": 203,
+  "name": "AGUIAR, WILLIAM M"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "99552.00",
+  "job_titles": "DISTRICT SUPVSR - GRAFFITI REMOVAL SERVICES",
+  "id": 204,
+  "name": "AGUILAR, ALFREDO"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 205,
+  "name": "AGUILAR, EFRAIN"
+  },
+  {
+  "department": "ANIMAL CONTRL",
+  "employee_annual_salary": "68028.00",
+  "job_titles": "ANIMAL CARE AIDE I",
+  "id": 206,
+  "name": "AGUILAR, ELMA M"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "87324.00",
+  "job_titles": "COORD OF SPECIAL PROJECTS",
+  "id": 207,
+  "name": "AGUILAR, ESTHER"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 208,
+  "name": "AGUILAR, EVARISTO P"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "68688.00",
+  "job_titles": "SANITATION CLERK",
+  "id": 209,
+  "name": "AGUILAR, IRENE"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "80196.00",
+  "job_titles": "PARAMEDIC I/C",
+  "id": 210,
+  "name": "AGUILAR, JESUS D"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "14570.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 211,
+  "name": "AGUILAR JR, ROBERT"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 212,
+  "name": "AGUILAR, JUANITA"
+  },
+  {
+  "department": "CITY CLERK",
+  "employee_annual_salary": "62004.00",
+  "job_titles": "EDITORIAL ASST",
+  "id": 213,
+  "name": "AGUILAR, JUANITA M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "104628.00",
+  "job_titles": "SERGEANT",
+  "id": 214,
+  "name": "AGUILAR, KARINA D"
+  },
+  {
+  "department": "BOARD OF ELECTION",
+  "employee_annual_salary": "50472.00",
+  "job_titles": "SENIOR CLERK-ELECTIONS",
+  "id": 215,
+  "name": "AGUILAR, LOUIS"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 216,
+  "name": "AGUILAR, LUIS"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 217,
+  "name": "AGUILAR, RAY R"
+  },
+  {
+  "department": "ANIMAL CONTRL",
+  "employee_annual_salary": "68568.00",
+  "job_titles": "ANIMAL CONTROL OFFICER",
+  "id": 218,
+  "name": "AGUILAR, RICARDO L"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "MOTOR TRUCK DRIVER",
+  "id": 219,
+  "name": "AGUILAR, ROBERT"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46668.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 220,
+  "name": "AGUILERA, HORACIO"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 221,
+  "name": "AGUILERA, JESUS"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "98799.96",
+  "job_titles": "STREET LIGHT REPAIR WORKER",
+  "id": 222,
+  "name": "AGUILERA, JUAN A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 223,
+  "name": "AGUILERA, LINDA M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "70380.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 224,
+  "name": "AGUILERA, MARIA C"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "77670.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 225,
+  "name": "AGUILERA, SAUL"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 226,
+  "name": "AGUINAGA, JOHN P"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 227,
+  "name": "AGUINAGA, MEGAN E"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 228,
+  "name": "AGUIRRE, ALEX"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 229,
+  "name": "AGUIRRE, ANTHONY J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 230,
+  "name": "AGUIRRE, ENRIQUE"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "94200.00",
+  "job_titles": "ADMINISTRATIVE SERVICES OFFICER II",
+  "id": 231,
+  "name": "AGUIRRE, GUADALUPE"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 232,
+  "name": "AGUIRRE, GUADALUPE G"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "100884.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 233,
+  "name": "AGUIRRE, JOSEPH R"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "95178.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS EVIDENCE TECHNICIAN)",
+  "id": 234,
+  "name": "AGUIRRE, JUAN M"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 235,
+  "name": "AGUIRRE, JULIAN J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 236,
+  "name": "AGUIRRE, PABLO"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 237,
+  "name": "AGUIRRE, RAMIRO"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "98799.96",
+  "job_titles": "LOAD DISPATCHER",
+  "id": 238,
+  "name": "AGUIRRE, ROBERT J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 239,
+  "name": "AGUIRRE, TANYA L"
+  },
+  {
+  "department": "BUSINESS AFFAIRS",
+  "employee_annual_salary": "89676.00",
+  "job_titles": "PROGRAMMER/ANALYST",
+  "id": 240,
+  "name": "AGYEKUM, KOFI"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "74304.00",
+  "job_titles": "LIBRARIAN I",
+  "id": 241,
+  "name": "AHARANWA, ALEXANDER E"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 242,
+  "name": "AHEARN, DORY E"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "100320.00",
+  "job_titles": "FIRE ENGINEER-EMT",
+  "id": 243,
+  "name": "AHERN, MICHAEL J"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "FIREFIGHTER",
+  "id": 244,
+  "name": "AHERN, PATRICK J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 245,
+  "name": "AHERN, SCOTT E"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46668.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 246,
+  "name": "AHERN, SEAN"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "70380.00",
+  "job_titles": "FIREFIGHTER-EMT (RECRUIT)",
+  "id": 247,
+  "name": "AHLGRIM, MICHAEL L"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "110970.00",
+  "job_titles": "LIEUTENANT-EMT",
+  "id": 248,
+  "name": "AHLHEIM, MARGARET L"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 249,
+  "name": "AHMAD, FADI M"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "69825.60",
+  "job_titles": "LABORER",
+  "id": 250,
+  "name": "AHMAD, FAROOQ"
+  },
+  {
+  "department": "LAW",
+  "employee_annual_salary": "63840.00",
+  "job_titles": "ASST CORPORATION COUNSEL",
+  "id": 251,
+  "name": "AHMAD, HOORYA"
+  },
+  {
+  "department": "INSPECTOR GEN",
+  "employee_annual_salary": "134340.00",
+  "job_titles": "DIR OF INFORMATION SYSTEMS",
+  "id": 252,
+  "name": "AHMED, AMMAR E"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "113664.00",
+  "job_titles": "CHIEF PROGRAMMER/ANALYST",
+  "id": 253,
+  "name": "AHMED, KHALID"
+  },
+  {
+  "department": "FINANCE",
+  "employee_annual_salary": "54360.00",
+  "job_titles": "PARKING ENFORCEMENT AIDE",
+  "id": 254,
+  "name": "AHMED, MOHAMMAD A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46668.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 255,
+  "name": "AHMED, MOHAMMED K"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "120444.00",
+  "job_titles": "DEPUTY COMMISSIONER",
+  "id": 256,
+  "name": "AHMED, NAFEES"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "85764.00",
+  "job_titles": "CRIMINAL HISTORY ANALYST",
+  "id": 257,
+  "name": "AHMED, QUAZI S"
+  },
+  {
+  "department": "COMMUNITY DEVELOPMENT",
+  "employee_annual_salary": "82044.00",
+  "job_titles": "SENIOR RESEARCH ANALYST",
+  "id": 258,
+  "name": "AHMED, RIZWANA P"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "46896.00",
+  "job_titles": "DATA ENTRY OPERATOR",
+  "id": 259,
+  "name": "AHMED, SHAHRUKH Z"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "56508.00",
+  "job_titles": "FIELD SERVICE SPECIALIST II",
+  "id": 260,
+  "name": "AHMED, SYED"
+  },
+  {
+  "department": "CITY COUNCIL",
+  "employee_annual_salary": "50460.00",
+  "job_titles": "LEGISLATIVE AIDE",
+  "id": 261,
+  "name": "AHUILE, CECILIA T"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 262,
+  "name": "AICH, ABRAHAM A"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "132780.00",
+  "job_titles": "CAPTAIN-EMT",
+  "id": 263,
+  "name": "AIKENS, BRADLEY K"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "49140.00",
+  "job_titles": "PERSONAL COMPUTER OPERATOR I",
+  "id": 264,
+  "name": "AIKENS, CATHERINE"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "107280.00",
+  "job_titles": "PUBLIC HEALTH NURSE IV",
+  "id": 265,
+  "name": "AIKENS, CLORA M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 266,
+  "name": "AIKIN JR, LAWRENCE J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 267,
+  "name": "AILLON, EDMUNDO R"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "70380.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 268,
+  "name": "AIMERS, JAMES"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "48240.00",
+  "job_titles": "LIBRARIAN I",
+  "id": 269,
+  "name": "AIMONOVITCH, AMY"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "MOTOR TRUCK DRIVER",
+  "id": 270,
+  "name": "AINUDDIN, SAL N"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "MOTOR TRUCK DRIVER",
+  "id": 271,
+  "name": "AINUDDIN, ZAHID N"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 272,
+  "name": "AITKEN, CAMUHOO R"
+  },
+  {
+  "department": "FAMILY & SUPPORT",
+  "employee_annual_salary": "8580.00",
+  "job_titles": "TITLE V PROGRAM TRAINEE I",
+  "id": 273,
+  "name": "AJIBODU, LINDA"
+  },
+  {
+  "department": "BOARD OF ELECTION",
+  "employee_annual_salary": "67872.00",
+  "job_titles": "PRINCIPAL CLERK-ELECTIONS",
+  "id": 274,
+  "name": "AJZYK, EDWARD G"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "95178.00",
+  "job_titles": "POLICE OFFICER/EXPLSV DETECT K9 HNDLR",
+  "id": 275,
+  "name": "AKANA, MARK S"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "92682.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 276,
+  "name": "AKERS, DEREC A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 277,
+  "name": "AKERSON, WILLIE L"
+  },
+  {
+  "department": "TREASURER",
+  "employee_annual_salary": "87576.00",
+  "job_titles": "ASST CITY TREASURER",
+  "id": 278,
+  "name": "AKHTAR, SAEED"
+  },
+  {
+  "department": "GENERAL SERVICES",
+  "employee_annual_salary": "98675.20",
+  "job_titles": "OPERATING ENGINEER-GROUP A",
+  "id": 279,
+  "name": "AKHTAR, SYED J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 280,
+  "name": "AKINBUSUYI, AYOKUNLE"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "20051.20",
+  "job_titles": "TRAFFIC CONTROL AIDE-HOURLY",
+  "id": 281,
+  "name": "AKINES, CHRISTOPHER A"
+  },
+  {
+  "department": "MAYOR'S OFFICE",
+  "employee_annual_salary": "65004.00",
+  "job_titles": "ADMINISTRATIVE ASST",
+  "id": 282,
+  "name": "AKINLEMIBOLA, GRACE O"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 283,
+  "name": "AKINS, DARYL"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 284,
+  "name": "AKINS, KIMBERLY L"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 285,
+  "name": "AKINS, LISA"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 286,
+  "name": "AKINS, LOU ANN"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 287,
+  "name": "AKINS, MONICA E"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 288,
+  "name": "AKINS, ROBIN G"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "71820.00",
+  "job_titles": "POLICE COMMUNICATIONS OPERATOR I",
+  "id": 289,
+  "name": "ALAGNA, ANTHONY J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 290,
+  "name": "ALAGNA, STEVEN O"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "74028.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 291,
+  "name": "ALAGNO, THOMAS"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 292,
+  "name": "AL AMIN, HASAN M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 293,
+  "name": "AL AMIN, HASSAN"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "81948.00",
+  "job_titles": "COMMUNICABLE DISEASE CONTROL INVESTIGATOR II",
+  "id": 294,
+  "name": "AL AMIN, MAHASIN I"
+  },
+  {
+  "department": "FAMILY & SUPPORT",
+  "employee_annual_salary": "2756.00",
+  "job_titles": "SENIOR COMPANION",
+  "id": 295,
+  "name": "AL AMIN, RASHEEDAH K"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "FIREFIGHTER",
+  "id": 296,
+  "name": "ALAMO, ROBERTO G"
+  },
+  {
+  "department": "FINANCE",
+  "employee_annual_salary": "82044.00",
+  "job_titles": "ACCOUNTANT II",
+  "id": 297,
+  "name": "ALAM, SYED S"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "98016.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 298,
+  "name": "ALANIS, JOSE E"
+  },
+  {
+  "department": "GENERAL SERVICES",
+  "employee_annual_salary": "94328.00",
+  "job_titles": "MACHINIST (AUTOMOTIVE)",
+  "id": 299,
+  "name": "ALANIS, OSCAR"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 300,
+  "name": "ALANIS, ROBERT"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 301,
+  "name": "ALANIZ, BRIAN"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "74028.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 302,
+  "name": "ALANIZ, CHERI"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 303,
+  "name": "ALANIZ, ELIZABETH"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 304,
+  "name": "ALANIZ, MICHAEL R"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "43222.40",
+  "job_titles": "CUSTODIAL WORKER",
+  "id": 305,
+  "name": "ALANIZ, ROBERT A"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "68028.00",
+  "job_titles": "ADMINISTRATIVE ASST III",
+  "id": 306,
+  "name": "ALANIZ, SANDRA"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "96120.00",
+  "job_titles": "PUBLIC HEALTH NURSE I",
+  "id": 307,
+  "name": "ALANZO, SHARON"
+  },
+  {
+  "department": "COMMUNITY DEVELOPMENT",
+  "employee_annual_salary": "81948.00",
+  "job_titles": "LOAN PROCESSING SPECIALIST",
+  "id": 308,
+  "name": "ALARCON, LUIS J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 309,
+  "name": "ALATORRE, FRANK J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "66606.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 310,
+  "name": "ALBAKRI, FARES"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "70380.00",
+  "job_titles": "FIREFIGHTER-EMT (RECRUIT)",
+  "id": 311,
+  "name": "ALBANO, MARC N"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "69324.00",
+  "job_titles": "PUBLIC HEALTH NUTRITIONIST III",
+  "id": 312,
+  "name": "ALBARILLO, VERBENA S"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 313,
+  "name": "ALBARRAN, ALBERTO S"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "89568.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 314,
+  "name": "ALBARRAN, FABIAN"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "120036.84",
+  "job_titles": "COORDINATING FIRE COMMUNICATIONS OPERATOR",
+  "id": 315,
+  "name": "ALBARRAN, FRANK J"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "MOTOR TRUCK DRIVER",
+  "id": 316,
+  "name": "ALBA, SAUL B"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "74028.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 317,
+  "name": "ALBERT, DONNA"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "66456.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 318,
+  "name": "ALBERT, LOUIS"
+  },
+  {
+  "department": "BUSINESS AFFAIRS",
+  "employee_annual_salary": "85764.00",
+  "job_titles": "REVENUE INVESTIGATOR II",
+  "id": 319,
+  "name": "ALBERTS, DONNA M"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "90918.00",
+  "job_titles": "FIREFIGHTER",
+  "id": 320,
+  "name": "ALBERTS, RICHARD A"
+  },
+  {
+  "department": "GENERAL SERVICES",
+  "employee_annual_salary": "74131.20",
+  "job_titles": "EQUIPMENT DISPATCHER",
+  "id": 321,
+  "name": "ALBIN, RAYMOND M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46668.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 322,
+  "name": "ALBIZUREZ, HECTOR F"
+  },
+  {
+  "department": "GENERAL SERVICES",
+  "employee_annual_salary": "94328.00",
+  "job_titles": "MACHINIST (AUTOMOTIVE)",
+  "id": 323,
+  "name": "ALBRECHT, DANIEL R"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "85704.00",
+  "job_titles": "POLICE OFFICER / FLD TRNG OFFICER",
+  "id": 324,
+  "name": "ALBRECHT, DAWN M"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "100320.00",
+  "job_titles": "FIRE ENGINEER-EMT",
+  "id": 325,
+  "name": "ALBRIGHT, KEITH E"
+  },
+  {
+  "department": "DISABILITIES",
+  "employee_annual_salary": "99672.00",
+  "job_titles": "DEPUTY COMMISSIONER",
+  "id": 326,
+  "name": "ALBRITTON, JOSEPH A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 327,
+  "name": "ALCALA, DAVID A"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "81536.00",
+  "job_titles": "CONSTRUCTION LABORER",
+  "id": 328,
+  "name": "ALCALA, JOSE P"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 329,
+  "name": "ALCALA, RUBEN"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "65472.00",
+  "job_titles": "POLICE COMMUNICATIONS OPERATOR I",
+  "id": 330,
+  "name": "ALCANTARA, ELIZABETH"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "17846.40",
+  "job_titles": "CROSSING GUARD",
+  "id": 331,
+  "name": "ALCANTARA, JOVITA L"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "14060.80",
+  "job_titles": "CROSSING GUARD - PER CBA",
+  "id": 332,
+  "name": "ALCANTARA, ROSIO"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "81948.00",
+  "job_titles": "ACCOUNTING TECHNICIAN III",
+  "id": 333,
+  "name": "ALCANTAR, CELIA"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "53955.20",
+  "job_titles": "LAMP MAINTENANCE WORKER",
+  "id": 334,
+  "name": "ALCANTAR, RAMIRO"
+  },
+  {
+  "department": "LAW",
+  "employee_annual_salary": "58908.00",
+  "job_titles": "ASST CORPORATION COUNSEL",
+  "id": 335,
+  "name": "ALCARAZ, ANGEL G"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "86538.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 336,
+  "name": "ALCAUTER, ELIASARD"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 337,
+  "name": "ALCAZAR, ANTOINETTE"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 338,
+  "name": "ALCAZAR, DAVID E"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "96120.00",
+  "job_titles": "PUBLIC HEALTH NURSE II",
+  "id": 339,
+  "name": "ALCAZAR, GUADALUPE R"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 340,
+  "name": "ALCAZAR, VICTOR A"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "98799.96",
+  "job_titles": "TRAFFIC SIGNAL REPAIRMAN",
+  "id": 341,
+  "name": "ALCOZER, JOSEPH"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 342,
+  "name": "ALDAHONDO, GIL A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 343,
+  "name": "ALDANA, CARLOS J"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "81536.00",
+  "job_titles": "CONSTRUCTION LABORER",
+  "id": 344,
+  "name": "ALDANA, J F"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 345,
+  "name": "ALDAY, MARTHA S"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "104628.00",
+  "job_titles": "SERGEANT",
+  "id": 346,
+  "name": "ALDERDEN, JACOB M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "98016.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 347,
+  "name": "ALDRICH, JEFFREY S"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 348,
+  "name": "ALDRIDGE, JENNIFER L"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "62580.00",
+  "job_titles": "SANITATION CLERK",
+  "id": 349,
+  "name": "ALDUGOM, NABIL K"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "104628.00",
+  "job_titles": "LIEUTENANT",
+  "id": 350,
+  "name": "ALDWORTH, JAMES P"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 351,
+  "name": "ALEGADO, ROBERTO S"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "93745.60",
+  "job_titles": "OPERATING ENGINEER-GROUP C",
+  "id": 352,
+  "name": "ALEGADO, SAMUEL M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "74028.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 353,
+  "name": "ALEGRE, DAVID"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "66606.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 354,
+  "name": "ALEGRIA, ARTURO M"
+  },
+  {
+  "department": "BOARD OF ELECTION",
+  "employee_annual_salary": "27228.00",
+  "job_titles": "CLERK - BD OF ELECTIONS",
+  "id": 355,
+  "name": "ALEGRIA, CRISTINA G"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "70380.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 356,
+  "name": "ALEJANDRO, JESSE"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 357,
+  "name": "ALEJO, LUIS F"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "89568.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 358,
+  "name": "ALEMAN, GEORGE"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "98280.00",
+  "job_titles": "PLUMBER",
+  "id": 359,
+  "name": "ALEMAN, JESUS"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "68028.00",
+  "job_titles": "PROPERTY CUSTODIAN",
+  "id": 360,
+  "name": "ALEQUIN, ANA I"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "86700.00",
+  "job_titles": "AIRPORT MANAGER - O'HARE",
+  "id": 361,
+  "name": "ALESIA, JOSEPH"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 362,
+  "name": "ALESSI, CHRISTINE L"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "70380.00",
+  "job_titles": "FIREFIGHTER-EMT (RECRUIT)",
+  "id": 363,
+  "name": "ALESSI, ROBERT W"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "88656.00",
+  "job_titles": "POLICE TECHNICIAN",
+  "id": 364,
+  "name": "ALESZCZYK, ADAM S"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "107988.00",
+  "job_titles": "SERGEANT",
+  "id": 365,
+  "name": "ALEXA, MICHELENE A"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "65582.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 366,
+  "name": "ALEXANDER, CALVIN"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "81536.00",
+  "job_titles": "LABORER",
+  "id": 367,
+  "name": "ALEXANDER, CLEMMIE"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "98016.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 368,
+  "name": "ALEXANDER, CONRAD E"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "170112.00",
+  "job_titles": "DEPUTY CHIEF",
+  "id": 369,
+  "name": "ALEXANDER, DANA"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 370,
+  "name": "ALEXANDER, DARIUS Q"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 371,
+  "name": "ALEXANDER, DARLENE"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "18699.20",
+  "job_titles": "CROSSING GUARD",
+  "id": 372,
+  "name": "ALEXANDER, DORIS A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "68568.00",
+  "job_titles": "DETENTION AIDE",
+  "id": 373,
+  "name": "ALEXANDER, EARL"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "121464.00",
+  "job_titles": "AMBULANCE COMMANDER",
+  "id": 374,
+  "name": "ALEXANDER, JAMES P"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 375,
+  "name": "ALEXANDER JR, GENE I"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "98280.00",
+  "job_titles": "PLUMBER",
+  "id": 376,
+  "name": "ALEXANDER, KEVIN"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 377,
+  "name": "ALEXANDER, KIMBERLY T"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 378,
+  "name": "ALEXANDER, LARRON H"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "17846.40",
+  "job_titles": "CROSSING GUARD",
+  "id": 379,
+  "name": "ALEXANDER, LORIE J"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 380,
+  "name": "ALEXANDER, MARK A"
+  },
+  {
+  "department": "FAMILY & SUPPORT",
+  "employee_annual_salary": "2756.00",
+  "job_titles": "FOSTER GRANDPARENT",
+  "id": 381,
+  "name": "ALEXANDER, MARY F"
+  },
+  {
+  "department": "FINANCE",
+  "employee_annual_salary": "47316.00",
+  "job_titles": "PARKING ENFORCEMENT AIDE",
+  "id": 382,
+  "name": "ALEXANDER, PATRICIA L"
+  },
+  {
+  "department": "FINANCE",
+  "employee_annual_salary": "33876.00",
+  "job_titles": "TRAFFIC ENFORCEMENT TECH",
+  "id": 383,
+  "name": "ALEXANDER, RACQUEL L"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "20498.40",
+  "job_titles": "CROSSING GUARD",
+  "id": 384,
+  "name": "ALEXANDER, ROCHELLE D"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 385,
+  "name": "ALEXANDER, ROSS J"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "95088.00",
+  "job_titles": "FIELD SUPVSR",
+  "id": 386,
+  "name": "ALEXANDER, SAMUEL M"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "57696.00",
+  "job_titles": "LIBRARIAN I",
+  "id": 387,
+  "name": "ALEXANDER, SARAH B"
+  },
+  {
+  "department": "HUMAN RESOURCES",
+  "employee_annual_salary": "75048.00",
+  "job_titles": "RECRUITER",
+  "id": 388,
+  "name": "ALEXANDER, WENDY R"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 389,
+  "name": "ALEXE, ELENA"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "74028.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 390,
+  "name": "AL FARAH, TENA A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 391,
+  "name": "ALFARO, HECTOR"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 392,
+  "name": "ALFARO, JOSEPHJAM S"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 393,
+  "name": "ALFARO, JOSEPH S"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "82560.00",
+  "job_titles": "AVIATION SECURITY OFFICER",
+  "id": 394,
+  "name": "ALFARO JR, BERNARDO"
+  },
+  {
+  "department": "BUSINESS AFFAIRS",
+  "employee_annual_salary": "75960.00",
+  "job_titles": "SUPERVISING VIDEOGRAPHER",
+  "id": 395,
+  "name": "ALFERES, GERARDO F"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "100048.00",
+  "job_titles": "HOISTING ENGINEER",
+  "id": 396,
+  "name": "ALFICH, FRED T"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "100048.00",
+  "job_titles": "HOISTING ENGINEER",
+  "id": 397,
+  "name": "ALFICH, SCOTT"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "100884.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 398,
+  "name": "ALFINI, PAUL R"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "17846.40",
+  "job_titles": "CROSSING GUARD",
+  "id": 399,
+  "name": "ALFORD, LINDA D"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "65592.00",
+  "job_titles": "SANITATION CLERK",
+  "id": 400,
+  "name": "ALFRED, BRENDA L"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "28808.00",
+  "job_titles": "CUSTODIAL WORKER",
+  "id": 401,
+  "name": "ALFRED, TIARA M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 402,
+  "name": "ALGARIN, JOEL S"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "89568.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 403,
+  "name": "ALGAS, JONATHAN T"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 404,
+  "name": "ALGHINI, LISA M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 405,
+  "name": "ALGHINI, RICHARD"
+  },
+  {
+  "department": "BUILDINGS",
+  "employee_annual_salary": "106836.00",
+  "job_titles": "PROJECT MANAGER - BUILDINGS",
+  "id": 406,
+  "name": "AL GHOLEH, HASAN M"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "106836.00",
+  "job_titles": "FILTRATION ENGINEER IV",
+  "id": 407,
+  "name": "AL HAJJE, MOHAMAD H"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "18699.20",
+  "job_titles": "CROSSING GUARD",
+  "id": 408,
+  "name": "ALI, ARMANDA"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "81536.00",
+  "job_titles": "CONSTRUCTION LABORER",
+  "id": 409,
+  "name": "ALIASI, ERMINIO"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 410,
+  "name": "ALI, BILAL R"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "98675.20",
+  "job_titles": "OPERATING ENGINEER-GROUP A",
+  "id": 411,
+  "name": "ALICEA, ANGEL R"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "69825.60",
+  "job_titles": "LABORER",
+  "id": 412,
+  "name": "ALICEA JR, FELIX"
+  },
+  {
+  "department": "HEALTH",
+  "employee_annual_salary": "68028.00",
+  "job_titles": "COMMUNICABLE DISEASE CONTROL INVESTIGATOR II",
+  "id": 413,
+  "name": "ALICEA, VILMA R"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 414,
+  "name": "ALI, FARI"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 415,
+  "name": "ALI, JAVED"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "100656.00",
+  "job_titles": "MANAGER OF POLICE PAYROLLS",
+  "id": 416,
+  "name": "ALI KELLEY, YASMINE M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 417,
+  "name": "ALI, MOHAMMED"
+  },
+  {
+  "department": "GENERAL SERVICES",
+  "employee_annual_salary": "98675.20",
+  "job_titles": "OPERATING ENGINEER-GROUP A",
+  "id": 418,
+  "name": "ALINOVICH, PETER A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "104628.00",
+  "job_titles": "SERGEANT",
+  "id": 419,
+  "name": "ALIOTO, ROCCO J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "46668.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 420,
+  "name": "ALI, SHAHRUKH"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "81536.00",
+  "job_titles": "CONSTRUCTION LABORER",
+  "id": 421,
+  "name": "ALI, SYED H"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "9640.80",
+  "job_titles": "POLICE CADET",
+  "id": 422,
+  "name": "ALI, SYED S"
+  },
+  {
+  "department": "DoIT",
+  "employee_annual_salary": "89880.00",
+  "job_titles": "SENIOR TELECOMMUNICATIONS SPECIALIST",
+  "id": 423,
+  "name": "ALLAIN, CAROLYN"
+  },
+  {
+  "department": "CITY COUNCIL",
+  "employee_annual_salary": "58764.00",
+  "job_titles": "STAFF ASST TO THE ALDERMAN",
+  "id": 424,
+  "name": "ALLEE, MATTHEW L"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "106980.00",
+  "job_titles": "FIRE ENGINEER-EMT",
+  "id": 425,
+  "name": "ALLEGRETTI, ANTHONY"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "91000.00",
+  "job_titles": "CEMENT FINISHER",
+  "id": 426,
+  "name": "ALLEGRINI, NICK"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "98675.20",
+  "job_titles": "OPERATING ENGINEER-GROUP A",
+  "id": 427,
+  "name": "ALLEMAN, ROBERT R"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "16317.60",
+  "job_titles": "LIBRARY CLERK - HOURLY",
+  "id": 428,
+  "name": "ALLEN, ACHEN J"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "PARAMEDIC",
+  "id": 429,
+  "name": "ALLEN, ALPHONSO J"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "90918.00",
+  "job_titles": "FIREFIGHTER",
+  "id": 430,
+  "name": "ALLEN, ANDRE G"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "62004.00",
+  "job_titles": "CLERK IV",
+  "id": 431,
+  "name": "ALLEN, ANNETTE D"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "107988.00",
+  "job_titles": "EXPLOSIVES TECHNICIAN I",
+  "id": 432,
+  "name": "ALLEN, ANTONIO W"
+  },
+  {
+  "department": "FINANCE",
+  "employee_annual_salary": "64992.00",
+  "job_titles": "PAYMENT SERVICES REPRESENTATIVE",
+  "id": 433,
+  "name": "ALLEN BROWN, CORA I"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "14570.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 434,
+  "name": "ALLEN, CASSANDRA"
+  },
+  {
+  "department": "DISABILITIES",
+  "employee_annual_salary": "82044.00",
+  "job_titles": "DISABILITY SPECIALIST II",
+  "id": 435,
+  "name": "ALLEN, CLINTON S"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "100320.00",
+  "job_titles": "FIRE ENGINEER-EMT",
+  "id": 436,
+  "name": "ALLEN, CRAIG M"
+  },
+  {
+  "department": "GENERAL SERVICES",
+  "employee_annual_salary": "44824.00",
+  "job_titles": "WATCHMAN",
+  "id": 437,
+  "name": "ALLEN, DALPHINE"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "107988.00",
+  "job_titles": "SERGEANT",
+  "id": 438,
+  "name": "ALLEN, DANIEL H"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "107988.00",
+  "job_titles": "LIEUTENANT",
+  "id": 439,
+  "name": "ALLEN, DANIEL J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 440,
+  "name": "ALLEN, DAVID"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 441,
+  "name": "ALLEN, DEBORAH A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 442,
+  "name": "ALLEN, DENOTRA"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "92682.00",
+  "job_titles": "FIREFIGHTER-EMT",
+  "id": 443,
+  "name": "ALLEN, DERRICK"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "95178.00",
+  "job_titles": "POLICE AGENT",
+  "id": 444,
+  "name": "ALLEN, DERRICK D"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "66606.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 445,
+  "name": "ALLEN, DOMINIQUE"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "20051.20",
+  "job_titles": "TRAFFIC CONTROL AIDE-HOURLY",
+  "id": 446,
+  "name": "ALLEN, DONNIE"
+  },
+  {
+  "department": "TREASURER",
+  "employee_annual_salary": "74304.00",
+  "job_titles": "ACCOUNTANT I",
+  "id": 447,
+  "name": "ALLEN, ELIZABETH"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 448,
+  "name": "ALLEN, GLORIA"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 449,
+  "name": "ALLEN, GORDON K"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 450,
+  "name": "ALLEN, HENRY C"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "101442.00",
+  "job_titles": "SERGEANT",
+  "id": 451,
+  "name": "ALLEN, JAMES W"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "107988.00",
+  "job_titles": "SERGEANT",
+  "id": 452,
+  "name": "ALLEN, JEFFREY W"
+  },
+  {
+  "department": "FINANCE",
+  "employee_annual_salary": "78204.00",
+  "job_titles": "STAFF ASST",
+  "id": 453,
+  "name": "ALLEN, JONATHAN E"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "98016.00",
+  "job_titles": "POLICE OFFICER (ASSIGNED AS DETECTIVE)",
+  "id": 454,
+  "name": "ALLEN, KEITH A"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 455,
+  "name": "ALLEN, KEVIN C"
+  },
+  {
+  "department": "FINANCE",
+  "employee_annual_salary": "97812.00",
+  "job_titles": "ACCOUNTANT IV",
+  "id": 456,
+  "name": "ALLEN, KEVIN M"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "93240.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 457,
+  "name": "ALLEN, LAJEUNE R"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "54360.00",
+  "job_titles": "TRAFFIC CONTROL AIDE",
+  "id": 458,
+  "name": "ALLEN, LAQUETIA L"
+  },
+  {
+  "department": "FINANCE",
+  "employee_annual_salary": "59184.00",
+  "job_titles": "COLLECTIONS REPRESENTATIVE",
+  "id": 459,
+  "name": "ALLEN, LA SHAWNDA"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "22568.00",
+  "job_titles": "CROSSING GUARD",
+  "id": 460,
+  "name": "ALLEN, MARIE"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "98016.00",
+  "job_titles": "POLICE OFFICER (ASGND AS MARINE OFFICER)",
+  "id": 461,
+  "name": "ALLEN, MARK D"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 462,
+  "name": "ALLEN, MELVIN"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "88410.00",
+  "job_titles": "PARAMEDIC I/C",
+  "id": 463,
+  "name": "ALLEN, MICHAEL J"
+  },
+  {
+  "department": "BUDGET & MGMT",
+  "employee_annual_salary": "64212.00",
+  "job_titles": "SENIOR BUDGET ANALYST",
+  "id": 464,
+  "name": "ALLEN, MICHAEL L"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "87384.00",
+  "job_titles": "FIREFIGHTER",
+  "id": 465,
+  "name": "ALLEN, MONICA J"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "17846.40",
+  "job_titles": "CROSSING GUARD",
+  "id": 466,
+  "name": "ALLEN, MYRA B"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "25334.40",
+  "job_titles": "LIBRARY ASSOCIATE - HOURLY",
+  "id": 467,
+  "name": "ALLEN, NAJJA T"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "65592.00",
+  "job_titles": "BRIDGE OPERATOR",
+  "id": 468,
+  "name": "ALLEN, PETER B"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 469,
+  "name": "ALLEN, PHOEBE"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "90618.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 470,
+  "name": "ALLEN, RAYMOND G"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 471,
+  "name": "ALLEN, REGAN J"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 472,
+  "name": "ALLEN, RICHARD"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "94328.00",
+  "job_titles": "MACHINIST",
+  "id": 473,
+  "name": "ALLEN, ROBERT"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 474,
+  "name": "ALLEN, ROBERT G"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "MOTOR TRUCK DRIVER",
+  "id": 475,
+  "name": "ALLEN, ROBERT L"
+  },
+  {
+  "department": "WATER MGMNT",
+  "employee_annual_salary": "97812.00",
+  "job_titles": "CIVIL ENGINEER III",
+  "id": 476,
+  "name": "ALLEN, RUTH B"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "44808.00",
+  "job_titles": "LIBRARY CLERK",
+  "id": 477,
+  "name": "ALLEN, RYAN M"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "71905.60",
+  "job_titles": "AIRPORT MAINTENANCE FOREMAN",
+  "id": 478,
+  "name": "ALLEN, RYSHON C"
+  },
+  {
+  "department": "OEMC",
+  "employee_annual_salary": "20051.20",
+  "job_titles": "TRAFFIC CONTROL AIDE-HOURLY",
+  "id": 479,
+  "name": "ALLEN, SAHID J"
+  },
+  {
+  "department": "BUILDINGS",
+  "employee_annual_salary": "68028.00",
+  "job_titles": "ADMINISTRATIVE ASST II",
+  "id": 480,
+  "name": "ALLEN, SANDRA"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "81588.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 481,
+  "name": "ALLENSON, SAGE"
+  },
+  {
+  "department": "TRANSPORTN",
+  "employee_annual_salary": "83824.00",
+  "job_titles": "FOREMAN OF CONSTRUCTION LABORERS",
+  "id": 482,
+  "name": "ALLEN, TERRY L"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 483,
+  "name": "ALLEN, TIMOTHY"
+  },
+  {
+  "department": "ANIMAL CONTRL",
+  "employee_annual_salary": "68568.00",
+  "job_titles": "ANIMAL CONTROL OFFICER",
+  "id": 484,
+  "name": "ALLEN, TIMOTHY M"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 485,
+  "name": "ALLEN, TYREE D"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "156360.00",
+  "job_titles": "ASST DEPUTY CHIEF PARAMEDIC",
+  "id": 486,
+  "name": "ALLEN, VERDIE P"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "95178.00",
+  "job_titles": "POLICE OFFICER / FLD TRNG OFFICER",
+  "id": 487,
+  "name": "ALLEN, VINCENT"
+  },
+  {
+  "department": "PUBLIC LIBRARY",
+  "employee_annual_salary": "74676.00",
+  "job_titles": "ADMINISTRATIVE ASST III",
+  "id": 488,
+  "name": "ALLEN, WANDA L"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "44574.40",
+  "job_titles": "GENERAL LABORER - DSS",
+  "id": 489,
+  "name": "ALLEN, WILLIAM"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "73840.00",
+  "job_titles": "SANITATION LABORER",
+  "id": 490,
+  "name": "ALLEN, WILLIAM L"
+  },
+  {
+  "department": "STREETS & SAN",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "POOL MOTOR TRUCK DRIVER",
+  "id": 491,
+  "name": "ALLEYNE, HATTIE"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "110970.00",
+  "job_titles": "LIEUTENANT-EMT",
+  "id": 492,
+  "name": "ALLEYNE, STEVE C"
+  },
+  {
+  "department": "CITY COUNCIL",
+  "employee_annual_salary": "78468.00",
+  "job_titles": "ASST TO THE ALDERMAN",
+  "id": 493,
+  "name": "ALLISON, ALLYSON M"
+  },
+  {
+  "department": "GENERAL SERVICES",
+  "employee_annual_salary": "94328.00",
+  "job_titles": "MACHINIST (AUTOMOTIVE)",
+  "id": 494,
+  "name": "ALLISON, JACOB M"
+  },
+  {
+  "department": "ANIMAL CONTRL",
+  "employee_annual_salary": "59652.00",
+  "job_titles": "ANIMAL CONTROL OFFICER",
+  "id": 495,
+  "name": "ALLISON, JOHN L"
+  },
+  {
+  "department": "FIRE",
+  "employee_annual_salary": "104628.00",
+  "job_titles": "LIEUTENANT",
+  "id": 496,
+  "name": "ALLISON, PAUL W"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "72862.40",
+  "job_titles": "MOTOR TRUCK DRIVER",
+  "id": 497,
+  "name": "ALMAGUER, DAVID J"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "66606.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 498,
+  "name": "ALMAGUER, PHILIP"
+  },
+  {
+  "department": "POLICE",
+  "employee_annual_salary": "84450.00",
+  "job_titles": "POLICE OFFICER",
+  "id": 499,
+  "name": "ALMANZA, EDUARDO"
+  },
+  {
+  "department": "AVIATION",
+  "employee_annual_salary": "59652.00",
+  "job_titles": "AVIATION SECURITY OFFICER",
+  "id": 500,
+  "name": "ALMANZA, FRANCISCO J"
+  }
+  ]
