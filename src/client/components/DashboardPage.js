@@ -109,7 +109,7 @@ export default class DashboardPage extends Component{
                     <tbody>
                     {
                       filteredEmployees.map((employee, index)=>
-                        <tr key={employee.id}  
+                        <tr key={employee.id + index}  
                           onClick={() => this.onRowHighlight(index) }
                           onKeyDown={this.handleKeyDown}
                           ref={ref=>this.rowRefs[index] = ref}

@@ -4,8 +4,8 @@ import NotFoundPage from '../components/NotFoundPage';
 import DashboardPage from '../components/DashboardPage';
 import EmployeeForm from '../components/EmployeeForm';
 import FetchSingleEmployeePage from '../components/FetchSingleEmployeePage';
-
 import Header from '../components/Header';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const AppRouter = () => (
