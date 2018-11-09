@@ -32,12 +32,14 @@ router.get('/', (req, res)=>{
  * Returns a single employee data.
  * @example
  * // URL:
- * http://localhost:3000/api/employees/5bdcebeb38bd99d30e97be11
+ * // URL params: employee's ID, number
+ * http://localhost:3000/api/employees/${id}
  */
 router.get('/:id', (req, res)=>{
-  Employee.findById(req.params.id, (err, employees)=>{
+  const id = parseInt(req.params.id);
+  Employee.find({id: id}, (err, employee)=>{
     if(err) return res.status(500).send(err);
-    res.json(employees);
+    res.json(employee);
   })
 });
 
@@ -57,5 +59,25 @@ router.post('/countDocs', (req, res)=>{
   });
 });
 
+
+// "name": `${firstName} ${lastName}`,
+// "department": department,
+// "employee_annual_salary": parseInt(employee_annual_salary),
+// "job_titles": job_titles,
+router.post('/', (req, res)=>{
+  const {name, department, employee_annual_salary, job_titles} = req.body;
+  const employee = new Employee({
+    name,
+    department,
+    employee_annual_salary,
+    job_titles
+  });
+  
+  employee.save((err)=>{
+    if (err) return res.send("Failed to create new Employee");
+    // Send new data to React component.
+    res.json(employee);
+  });
+});
 
 module.exports = router; 

@@ -3,6 +3,7 @@ import {Grid, Row, Col, FormGroup, FormControl, ControlLabel, Button} from 'reac
 import { ToastContainer, toast } from 'react-toastify';
 import validator from 'validator';
 
+
 export default class EmployeeForm extends React.Component{
   constructor(props){
     super(props);
@@ -19,21 +20,22 @@ export default class EmployeeForm extends React.Component{
     }
   }
   componentDidMount(){
-    fetch('/employee.json')
-      .then(res =>res.json())
-      .then(data =>{
-        const departments = data.meta.view.columns.find(col => col.id === 218245485);
-        const titles = data.meta.view.columns.find(col=>col.id ===218245484);
-        const departmentOptions = departments.cachedContents.top.map(d => d.item).sort((a,b)=>(a<b ? -1: 1));
-        const titleOptions = titles.cachedContents.top.map(t => t.item).sort((a,b) => (a<b ? -1: 1));
-        this.setState({
-          departmentOptions,
-          titleOptions
-        });
-      }, (error)=>{
+    fetch("/api/departments")
+    .then(response => response.json())
+    .then((departments) => {
+        this.setState({departmentOptions: departments})
+      }),(error)=>{
         console.log(error);
-        console.log('ERR: componentDidMount');
-      });
+      }
+
+    fetch("/api/titles")
+    .then(response => response.json())
+    .then((titles) => {
+        this.setState({titleOptions: titles})
+      }),(error)=>{
+        console.log(error);
+      }
+
   }
   handleChange = (e) =>{
     this.setState({
@@ -106,6 +108,7 @@ export default class EmployeeForm extends React.Component{
   }//end of onSubmit
 
   render(){
+    console.log(this.state.departmentOptions);
     return(
       <Grid>
         <Row>
@@ -131,12 +134,12 @@ export default class EmployeeForm extends React.Component{
                   name="job_titles" 
                   value={this.state.job_titles} 
                   onChange={this.handleChange}>
-                <option value="">Select your title</option>
-                {
+                  <option value="">Select your title</option>
+                  {
                   this.state.titleOptions.map(title =>
-                    <option key={title} value={title}>{title}</option>
+                    <option key={title.name} value={title.name}>{title.name}</option>
                     )
-                }
+                  }
                 </FormControl>
               </FormGroup>
               <FormGroup>
@@ -149,7 +152,7 @@ export default class EmployeeForm extends React.Component{
                   <option value="">Select your department</option>
                   {
                     this.state.departmentOptions.map(department =>
-                      <option key={department} value={department}>{department}</option>
+                      <option key={department.name} value={department.name}>{department.name}</option>
                       )
                   }
                 </FormControl>

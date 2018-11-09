@@ -3,6 +3,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const employees = require('./routes/employees');
+const departments = require('./routes/departments');
+const titles = require('./routes/titles');
+
 const publicPath = path.join(__dirname, '../../', 'dist');
 const app = express();
 
@@ -21,6 +24,9 @@ app.use(bodyParser.json());
 app.use(express.static('dist'));
 // RESTful API router
 app.use('/api/employees', employees);
+app.use('/api/departments', departments);
+app.use('/api/titles', titles);
+
 
 // Client router
 app.get('/*', (req, res) => {

@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
-//import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import {Grid, Row, Col, Table, FormGroup, FormControl} from 'react-bootstrap';
 import FetchEmployees from './FetchEmployees';
-import Pagination from "react-js-pagination";
+import AppPagination from './AppPagination';
 import './app.css';
 
 
@@ -11,38 +10,24 @@ export default class DashboardPage extends Component{
   constructor(props){
     super(props);
     this.state = {
-      isSortAsc: false,
       search: '',
-      activePage: 1,
-      totalItemsCount:0,
+      activePage: 1
     }
     this.rowRefs = [];
     this.fetchEmployees = React.createRef();
   }
-  componentDidMount(){
-    fetch('/api/employees/countDocs', {method: "POST"})
-      .then(res=>res.json())
-      .then((data)=>{
-        console.log(data.count);
-        this.setState({
-          totalItemsCount: data.count,
-        })
-      }, (error)=>{
-        console.log(error);
-      });
+  componentDidMount(){    
+    this.onRowHighlight(0)
   }
  
   handleKeyDown = (e) =>{
     let code = e.keyCode;
     let tabIndex = e.target.tabIndex;
-    let employeeId = e.target.id;
-    let maxLen = this.state.filteredEmployees.length;
-    //let maxLen = this.fetchEmployees.current.state.filteredEmployeesTotal;
-    //console.log(`tabIndex: ${tabIndex}, keyCode: ${code}, employeeId: ${employeeId}, maxLen: ${maxLen}`)
+    let eId = e.target.id;
+    let maxLen = this.fetchEmployees.current.state.filteredEmployeesTotal;
 
     if (code === 13) { //Enter key
-      const employeeData = this.state.filteredEmployees.find(e => e.id == employeeId);
-      this.props.history.push(`/employee/${employeeId}`, { employeeData: employeeData });
+      this.props.history.push(`/employees/${eId}`);
     }
     if(code === 38){ //Up arrow key
       if(tabIndex === 0) return; //Check if the first row
@@ -82,6 +67,7 @@ export default class DashboardPage extends Component{
   }
 
   onRowHighlight = (id) =>{
+    console.log('onRowHighlighted');
     this.rowRefs[id] && this.rowRefs[id].focus(); 
   }    
 
@@ -102,13 +88,10 @@ export default class DashboardPage extends Component{
         </Row>
         <Row>
           <Col xs={12} sm={10}>
-            <Pagination
-              activePage={this.state.activePage}
-              itemsCountPerPage={100}
-              totalItemsCount={500}
-              pageRangeDisplayed={10}
-              onChange={this.handlePageChange}
-            /> 
+          <AppPagination 
+            activePage={this.state.activePage}
+            handlePageChange={this.handlePageChange}          
+          />
             <Table bordered>
             <thead>
               <tr>
@@ -131,9 +114,10 @@ export default class DashboardPage extends Component{
                           onKeyDown={this.handleKeyDown}
                           ref={ref=>this.rowRefs[index] = ref}
                           tabIndex={index}
+                          id={employee.id}
                           >
                           <td>{employee.id}</td>
-                          <td><Link to={{ pathname: `/employee/${employee.id}`, state:{employeeData: employee}}}>{employee.name}</Link></td>
+                          <td><Link to={`/employees/${employee.id}`}>{employee.name}</Link></td>
                           <td>{employee.job_titles}</td>
                           <td>{employee.department}</td>
                         </tr>
@@ -152,3 +136,10 @@ export default class DashboardPage extends Component{
 }
 
 
+// <Pagination
+// activePage={this.state.activePage}
+// itemsCountPerPage={100}
+// totalItemsCount={500}
+// pageRangeDisplayed={10}
+// onChange={this.handlePageChange}
+// /> 
