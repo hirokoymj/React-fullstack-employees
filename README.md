@@ -1,8 +1,8 @@
 # City of Chicago Employee Dashboad
 
-Client: **React.js**
-Server: **Node.js, Express.js and mongoose**
-Database: **MongoDB**
+- Client: **React.js**
+- Server: **Node.js, Express.js and mongoose**
+- Database: **MongoDB**
 
 ### Live Demo
 https://powerful-springs-20093.herokuapp.com/form
