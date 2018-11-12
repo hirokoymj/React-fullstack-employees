@@ -58,7 +58,6 @@ export default class DashboardPage extends Component{
 
   // Clicked on pagination
   handlePageChange = (pageNumber) => {
-    console.log(`active page is ${pageNumber}`);
     this.fetchEmployees.current.getEmployeeData(pageNumber, this.state.search);
 
     this.setState({
@@ -67,7 +66,6 @@ export default class DashboardPage extends Component{
   }
 
   onRowHighlight = (id) =>{
-    console.log('onRowHighlighted');
     this.rowRefs[id] && this.rowRefs[id].focus(); 
   }    
 

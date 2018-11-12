@@ -1,4 +1,5 @@
 const {Employee} = require('../models/employees');
+const {Counter} = require('../models/counter');
 const express = require('express');
 const router = express.Router();
 
@@ -59,25 +60,29 @@ router.post('/countDocs', (req, res)=>{
   });
 });
 
-
-// "name": `${firstName} ${lastName}`,
-// "department": department,
-// "employee_annual_salary": parseInt(employee_annual_salary),
-// "job_titles": job_titles,
+/**
+ * Save new employee data.
+ * HTTP Method: POST
+ * @example
+ * // URL:
+ * http://localhost:3000/api/employees
+ */
 router.post('/', (req, res)=>{
   const {name, department, employee_annual_salary, job_titles} = req.body;
+  // console.log(`Department: ${req.body.department}`);
+
   const employee = new Employee({
-    name,
-    department,
-    employee_annual_salary,
-    job_titles
+    name: name,
+    department: department,
+    employee_annual_salary: employee_annual_salary,
+    job_titles:job_titles
   });
-  
-  employee.save((err)=>{
-    if (err) return res.send("Failed to create new Employee");
-    // Send new data to React component.
+
+  employee.save(function(err){
+    //res.send(employee);
+    if(err) return res.status(500).send(err);
     res.json(employee);
-  });
+  })
 });
 
 module.exports = router; 

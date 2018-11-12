@@ -3,7 +3,6 @@ import {Grid, Row, Col, FormGroup, FormControl, ControlLabel, Button} from 'reac
 import { ToastContainer, toast } from 'react-toastify';
 import validator from 'validator';
 
-
 export default class EmployeeForm extends React.Component{
   constructor(props){
     super(props);
@@ -19,7 +18,9 @@ export default class EmployeeForm extends React.Component{
       lastNameErr: null
     }
   }
+
   componentDidMount(){
+    // Get dropdown for department.
     fetch("/api/departments")
     .then(response => response.json())
     .then((departments) => {
@@ -28,6 +29,7 @@ export default class EmployeeForm extends React.Component{
         console.log(error);
       }
 
+    // Get dropdown for job title.
     fetch("/api/titles")
     .then(response => response.json())
     .then((titles) => {
@@ -35,18 +37,40 @@ export default class EmployeeForm extends React.Component{
       }),(error)=>{
         console.log(error);
       }
-
   }
+
   handleChange = (e) =>{
     this.setState({
       [e.target.name] : e.target.value
     })
   }
+
+  saveEmployee = (formData)=>{
+    fetch('/api/employees', {
+      method: 'POST',
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body:JSON.stringify(formData)
+    }).then(res=>res.json())
+      .then(res =>{
+        console.log(res);
+        toast.success("Success to save!");
+        this.setState({
+          firstName: '',
+          lastName: '',
+          department: '',
+          employee_annual_salary: 0,
+          job_titles: '',
+        })   
+      }, (error)=>{
+        console.log(error);
+      })
+  }
   onSubmit = (e) =>{
     e.preventDefault();
     const {department, employee_annual_salary, id, job_titles, firstName, lastName} = this.state;
-    //console.log(`${department}, ${employee_annual_salary}, ${id}, ${job_titles}, ${firstName}, ${lastName}`);
-
     /* Reset error message before validating. */
     const errArray = [];
     let errMsg = '';
@@ -69,46 +93,24 @@ export default class EmployeeForm extends React.Component{
       this.setState(()=>({
         lastNameErr: "error",
       }));
-    }    
-
+    } 
+    // Saving an employee
     if(errArray.length > 0){
       toast.error(errMsg);
     }else{
-      // HTTP POST Request Start
-      const formData = {
+       // HTTP POST Request Start
+       const formData = {
         "name": `${firstName} ${lastName}`,
         "department": department,
         "employee_annual_salary": parseInt(employee_annual_salary),
         "job_titles": job_titles,
       }
-      let h = new Headers();
-      h.append('Accept', 'application/json');
-      let req = new Request('https://dt-interviews.appspot.com', {
-        method: 'POST',
-        headers: h,
-        mode: 'cors',
-        body: JSON.stringify(formData)
-      })
-      fetch(req).then(res=>res.json())
-        .then(res =>{
-          console.log(res);
-          toast.success("Success to save!");
-          // Reset input fields
-          this.setState({
-            firstName: '',
-            lastName: '',
-            department: '',
-            employee_annual_salary: 0,
-            job_titles: '',
-          })        
-        }, (error)=>{
-          console.log(error);
-        })
-    }
+      this.saveEmployee(formData);
+    }      
   }//end of onSubmit
 
   render(){
-    console.log(this.state.departmentOptions);
+    //console.log(this.state.departmentOptions);
     return(
       <Grid>
         <Row>

@@ -40,9 +40,8 @@ export default class FetchEmployees extends React.Component {
     fetch(`/api/employees?page=${page}`)
       .then(res =>res.json())
       .then(employees =>{
-        console.log(employees);
-        console.log(employees.length);
-
+        // console.log(employees);
+        // console.log(employees.length);
         this.setState({
           employees,
           filteredEmployees: employees.filter(employee => employee.department.toLowerCase().indexOf(search.toLowerCase()) > -1),
