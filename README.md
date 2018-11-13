@@ -1,13 +1,13 @@
-# City of Chicago Employee Dashboard
+# React fullstack app - Employee Dashboard
 
 - Client: **React.js**
-- Server: **Node.js, Express.js and mongoose**
+- Server: **Node/Express.js**
 - Database: **MongoDB**
 
-### Live Demo
+## Live Demo:
 https://powerful-springs-20093.herokuapp.com/
 
-#### Features
+## Features
 
 - Pagination
 - React Refs
