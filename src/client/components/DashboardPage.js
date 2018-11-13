@@ -80,7 +80,7 @@ export default class DashboardPage extends Component{
         <Row>
             <Col xs={12} sm={10}>
               <FormGroup className="well">
-                <FormControl type="text" name="search" value={this.state.search} onChange={this.handleChange} placeholder="Search department..." />
+                <FormControl type="text" name="search" value={this.state.search} onChange={this.handleChange} placeholder="Search by department..." />
               </FormGroup>
             </Col>
         </Row>

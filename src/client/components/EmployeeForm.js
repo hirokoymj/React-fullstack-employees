@@ -2,6 +2,8 @@ import React from 'react';
 import {Grid, Row, Col, FormGroup, FormControl, ControlLabel, Button} from 'react-bootstrap';
 import { ToastContainer, toast } from 'react-toastify';
 import validator from 'validator';
+import Selectbox from './Selectbox';
+import InputText from './InputText';
 
 export default class EmployeeForm extends React.Component{
   constructor(props){
@@ -20,7 +22,7 @@ export default class EmployeeForm extends React.Component{
   }
 
   componentDidMount(){
-    // Get dropdown for department.
+    // Get dropdown options for department.
     fetch("/api/departments")
     .then(response => response.json())
     .then((departments) => {
@@ -29,7 +31,7 @@ export default class EmployeeForm extends React.Component{
         console.log(error);
       }
 
-    // Get dropdown for job title.
+    // Get dropdown options for job title.
     fetch("/api/titles")
     .then(response => response.json())
     .then((titles) => {
@@ -55,7 +57,7 @@ export default class EmployeeForm extends React.Component{
       body:JSON.stringify(formData)
     }).then(res=>res.json())
       .then(res =>{
-        console.log(res);
+        //console.log(res);
         toast.success("Success to save!");
         this.setState({
           firstName: '',
@@ -110,7 +112,6 @@ export default class EmployeeForm extends React.Component{
   }//end of onSubmit
 
   render(){
-    //console.log(this.state.departmentOptions);
     return(
       <Grid>
         <Row>
@@ -121,51 +122,14 @@ export default class EmployeeForm extends React.Component{
         <Row>
           <Col xs={12} sm={6}>
             <form onSubmit={this.onSubmit} className="addEmployeeForm">
-              <FormGroup controlId="firstName" validationState={this.state.firstNameErr}>
-                <ControlLabel>First Name:</ControlLabel>
-                <FormControl type="text" name="firstName" value={this.state.firstName} onChange={this.handleChange} />
-              </FormGroup>
-              <FormGroup controlId="lastName" validationState={this.state.lastNameErr}>
-                <ControlLabel>Last Name:</ControlLabel>
-                <FormControl type="text" name="lastName" value={this.state.lastName} onChange={this.handleChange} />
-              </FormGroup>
-              <FormGroup>
-                <ControlLabel>Job Title:</ControlLabel>
-                <FormControl 
-                  componentClass="select" 
-                  name="job_titles" 
-                  value={this.state.job_titles} 
-                  onChange={this.handleChange}>
-                  <option value="">Select your title</option>
-                  {
-                  this.state.titleOptions.map(title =>
-                    <option key={title.name} value={title.name}>{title.name}</option>
-                    )
-                  }
-                </FormControl>
-              </FormGroup>
-              <FormGroup>
-                <ControlLabel>Department:</ControlLabel>
-                <FormControl
-                  componentClass="select"
-                  name="department"
-                  value={this.state.department}
-                  onChange={this.handleChange}>
-                  <option value="">Select your department</option>
-                  {
-                    this.state.departmentOptions.map(department =>
-                      <option key={department.name} value={department.name}>{department.name}</option>
-                      )
-                  }
-                </FormControl>
-              </FormGroup>
-              <FormGroup>
-                <ControlLabel>Salary:</ControlLabel>
-                <FormControl type="number" name="employee_annual_salary" value={this.state.employee_annual_salary} onChange={this.handleChange} />
-              </FormGroup>
-            <Button type="submit" type="submit" className="btn btn-success addBtn">Submit</Button>
-          </form>
-          <ToastContainer hideProgressBar />
+              <InputText name="firstName" type="text" formLabel="First Name" validationState={this.state.firstNameErr} vaule={this.state.firstName} onChange={this.handleChange} />
+              <InputText name="lastName" type="text" formLabel="Last Name" validationState={this.state.lastNameErr} vaule={this.state.lastName} onChange={this.handleChange} />
+              <Selectbox name="job_titles" options={this.state.titleOptions} formLabel="Job Titles" value={this.state.job_titles} onChange={this.handleChange}/>    
+              <Selectbox name="department" options={this.state.departmentOptions} formLabel="Department" value={this.state.department} onChange={this.handleChange}/>    
+              <InputText name="employee_annual_salary" type="number" formLabel="Salary" vaule={this.state.employee_annual_salary} onChange={this.handleChange} />
+              <Button type="submit" type="submit" className="btn btn-success addBtn">Submit</Button>
+            </form>
+            <ToastContainer hideProgressBar />
           </Col>
         </Row>
       </Grid>

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import FetchSingleEmployee from './FetchSingleEmployee';
-import {Grid, Row, Col, Table} from 'react-bootstrap';
+import {Grid, Row, Col, Table, Button} from 'react-bootstrap';
 
 export default class FetchSingleEmployeePage extends Component{
   constructor(props){
@@ -31,8 +31,8 @@ export default class FetchSingleEmployeePage extends Component{
         </Row>
         <Row>
           <Col xs={12} sm={10}>
-            <button onClick={this.getPrevId}>Prev</button>
-            <button onClick={this.getNextId}>Next</button>
+            <Button bsStyle="primary" onClick={this.getPrevId}>Prev</Button>
+            <Button bsStyle="primary" onClick={this.getNextId}>Next</Button>
             <FetchSingleEmployee id={this.state.id} >
               {({ loading, employeeData, error }) => {
                 if(loading) return <p>Loading</p>;
