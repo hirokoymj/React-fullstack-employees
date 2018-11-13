@@ -122,12 +122,12 @@ export default class EmployeeForm extends React.Component{
         </Row>
         <Row>
           <Col xs={12} sm={6}>
-            <form onSubmit={this.onSubmit} className="addEmployeeForm">
-              <InputText name="firstName" type="text" formLabel="First Name" validationState={this.state.firstNameErr} vaule={this.state.firstName} onChange={this.handleChange} />
-              <InputText name="lastName" type="text" formLabel="Last Name" validationState={this.state.lastNameErr} vaule={this.state.lastName} onChange={this.handleChange} />
+            <form onSubmit={this.onSubmit}>
+              <InputText name="firstName" type="text" formLabel="First Name" validationState={this.state.firstNameErr} value={this.state.firstName} onChange={this.handleChange} />
+              <InputText name="lastName" type="text" formLabel="Last Name" validationState={this.state.lastNameErr} value={this.state.lastName} onChange={this.handleChange} />
               <Selectbox name="job_titles" options={this.state.titleOptions} formLabel="Job Titles" value={this.state.job_titles} onChange={this.handleChange}/>    
               <Selectbox name="department" options={this.state.departmentOptions} formLabel="Department" value={this.state.department} onChange={this.handleChange}/>    
-              <InputText name="employee_annual_salary" type="number" formLabel="Salary" vaule={this.state.employee_annual_salary} onChange={this.handleChange} />
+              <InputText name="employee_annual_salary" type="number" formLabel="Salary" value={this.state.employee_annual_salary} onChange={this.handleChange} />
               <Button type="submit" type="submit" className="btn btn-success addBtn">Submit</Button>
             </form>
             <ToastContainer hideProgressBar />
