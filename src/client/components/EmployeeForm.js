@@ -22,7 +22,15 @@ export default class EmployeeForm extends React.Component{
   }
 
   componentDidMount(){
-    // Get dropdown options for department.
+    this.fetchDepartments();
+    this.fetchJobTitles();
+  }
+  handleChange = (e) =>{
+    this.setState({
+      [e.target.name] : e.target.value
+    })
+  }
+  fetchDepartments = () =>{
     fetch("/api/departments")
     .then(response => response.json())
     .then((departments) => {
@@ -30,8 +38,8 @@ export default class EmployeeForm extends React.Component{
       }),(error)=>{
         console.log(error);
       }
-
-    // Get dropdown options for job title.
+  }
+  fetchJobTitles = () =>{
     fetch("/api/titles")
     .then(response => response.json())
     .then((titles) => {
@@ -40,13 +48,6 @@ export default class EmployeeForm extends React.Component{
         console.log(error);
       }
   }
-
-  handleChange = (e) =>{
-    this.setState({
-      [e.target.name] : e.target.value
-    })
-  }
-
   saveEmployee = (formData)=>{
     fetch('/api/employees', {
       method: 'POST',
