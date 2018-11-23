@@ -1,0 +1,63 @@
+//
+// Header style
+// Mobile First CSS Method
+// Created by Hiroko Y.
+// Date: 2018-11-23 
+// --------------------------------------------------
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 21px;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  border-color: transparent !important;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+.navbar-inverse {
+  background-color: #2780e3;
+  border-color: #1967be;
+  .navbar-brand {
+    color: #ffffff;
+  }
+  .navbar-nav > li > a {
+    color: #ffffff;
+  }
+
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover,
+  .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #1967be;
+  }  
+  .navbar-toggle {
+    border-color: transparent;
+    &:hover, &:focus{
+      background-color: #1967be !important;
+    }
+  }
+  .navbar-collapse{
+    border-color: #1a6ecc;
+  }      
+}
+
+
+
+/* Desktop (>= 992px)
+-------------------------------------------------- */
+@media (min-width: 992px) {}
+
+
+/* Desktop (>= 1200px)
+-------------------------------------------------- */
+@media (min-width: 1200px){}

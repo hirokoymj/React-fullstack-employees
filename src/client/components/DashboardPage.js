@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import {Grid, Row, Col, Table, FormGroup, FormControl} from 'react-bootstrap';
+import {Grid, Row, Col, Table, FormGroup, FormControl, Button} from 'react-bootstrap';
 import FetchEmployees from './FetchEmployees';
 import AppPagination from './AppPagination';
-import './app.css';
-
+import 'font-awesome/css/font-awesome.min.css';
 
 export default class DashboardPage extends Component{
   constructor(props){
@@ -58,8 +57,6 @@ export default class DashboardPage extends Component{
 
   // Clicked on pagination
   handlePageChange = (pageNumber) => {
-    this.fetchEmployees.current.getEmployeeData(pageNumber, this.state.search);
-
     this.setState({
       activePage: pageNumber,
     });
@@ -69,37 +66,46 @@ export default class DashboardPage extends Component{
     this.rowRefs[id] && this.rowRefs[id].focus(); 
   }    
 
+  sortData = (orderType, fieldName) =>{
+    console.log(`sortName: ${orderType}-${fieldName}`);
+    this.fetchEmployees.current.sortEmployees(orderType, fieldName);
+  }
+
   render(){
     return(
       <Grid>
         <Row>
-          <Col xs={12} sm={10}>
-            <h1>Dashboard Page</h1>
-          </Col>
-        </Row>
-        <Row>
-            <Col xs={12} sm={10}>
-              <FormGroup className="well">
-                <FormControl type="text" name="search" value={this.state.search} onChange={this.handleChange} placeholder="Search by department..." />
-              </FormGroup>
-            </Col>
-        </Row>
-        <Row>
-          <Col xs={12} sm={10}>
-          <AppPagination 
-            activePage={this.state.activePage}
-            handlePageChange={this.handlePageChange}          
-          />
-            <Table bordered>
+          <Col xs={12} md={10} className="main-content">
+            <FormGroup className="well zero-margin">
+              <FormControl type="text" name="search" value={this.state.search} onChange={this.handleChange} placeholder="Search by department..." />
+            </FormGroup>
+
+            <AppPagination 
+              activePage={this.state.activePage}
+              handlePageChange={this.handlePageChange}          
+            />
+            <Table bordered className="employeeListTbl">
             <thead>
               <tr>
-                <th>Employee ID</th>
-                <th>Name</th>
-                <th>Title</th>
-                <th>Department</th>
+                <th className="item-employeeId">Employee<br />ID</th>
+                <th>
+                  <div className="sortables">
+                    <span>Name</span>
+                    <span onClick={() => this.sortData('ace','name')} className="fa fa-sort-up my-icon"></span>
+                    <span onClick={() => this.sortData('dec','name')} className="fa fa-sort-down my-icon"></span>
+                  </div>
+                </th>
+                <th>
+                  <div className="sortables">
+                    <span>Job Title</span>
+                    <span onClick={() => this.sortData('ace','job_titles')}><i className="fa fa-sort-up"></i></span>       
+                    <span onClick={() => this.sortData('dec', 'job_titles')}><i className="fa fa-sort-down"></i></span>         
+                  </div>
+                </th>
+                <th className="item-department">Department</th>
               </tr>
             </thead> 
-              <FetchEmployees page={this.state.activePage} ref={this.fetchEmployees}>
+              <FetchEmployees page={this.state.activePage} search={this.state.search} ref={this.fetchEmployees}>
                 {({ loading, filteredEmployees, error }) => {
                   if(loading) return <tbody><tr><td>Loading</td></tr></tbody>;
                   if(error) return <tbody><tr><td>No data loaded.</td></tr></tbody> 
@@ -107,7 +113,7 @@ export default class DashboardPage extends Component{
                     <tbody>
                     {
                       filteredEmployees.map((employee, index)=>
-                        <tr key={employee.id + index}  
+                        <tr key={`${employee.name}-${index}`}  
                           onClick={() => this.onRowHighlight(index) }
                           onKeyDown={this.handleKeyDown}
                           ref={ref=>this.rowRefs[index] = ref}

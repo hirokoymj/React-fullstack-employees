@@ -16,6 +16,16 @@ export default class FetchEmployees extends React.Component {
     const page = this.props.page > 0 ? this.props.page : 1;
     this.getEmployeeData(page);
   }
+  componentDidUpdate(prevProps){
+    if(prevProps.page !== this.props.page){
+      this.getEmployeeData(this.props.page, this.props.search);
+    }
+    // if(prevProps.search !== this.props.search){
+    //   console.log('A search changed.');
+    //   //this.state.filterDepartment(this.props.search);
+    //   this.filterDepartment(this.props.search);
+    // }
+  }
   getEmployeeData = (page, search)=>{
     search = search || '';
     fetch(`/api/employees?page=${page}`)
@@ -56,6 +66,19 @@ export default class FetchEmployees extends React.Component {
     this.setState({
       filteredEmployees,
       //filteredEmployeesTotal: filteredEmployees.length
+    });
+  }
+  sortEmployees = (orderType, fieldName) =>{
+    console.log(`sortEmployees`)
+    let sortedEmployees = [];
+    if(orderType === 'ace'){
+      sortedEmployees = this.state.filteredEmployees.sort((a,b)=> (a[fieldName] < b[fieldName]) ? -1 : 1);
+    }else if(orderType === 'dec'){
+      sortedEmployees = this.state.filteredEmployees.sort((a,b)=> (b[fieldName] < a[fieldName]) ? -1 : 1);
+    }
+
+    this.setState({
+      filteredEmployees: sortedEmployees
     });
   }
 

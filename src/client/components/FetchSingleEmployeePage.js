@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import FetchSingleEmployee from './FetchSingleEmployee';
-import {Grid, Row, Col, Table, Button} from 'react-bootstrap';
+import {Grid, Row, Col, Table, Button, Panel, Pager} from 'react-bootstrap';
 
 export default class FetchSingleEmployeePage extends Component{
   constructor(props){
@@ -25,46 +25,55 @@ export default class FetchSingleEmployeePage extends Component{
     return(
       <Grid>
         <Row>
-          <Col xs={12} sm={10}>
-            <h1>Employee Detail Page</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={12} sm={10}>
-            <Button bsStyle="primary" onClick={this.getPrevId}>Prev</Button>
-            <Button bsStyle="primary" onClick={this.getNextId}>Next</Button>
-            <FetchSingleEmployee id={this.state.id} >
-              {({ loading, employeeData, error }) => {
-                if(loading) return <p>Loading</p>;
-                if(error) return <p>No data loaded.</p> 
-                if(employeeData) return (
-                  <Table bordered>
-                    <tbody>
-                    <tr>
-                      <td>ID</td>
-                      <td>{employeeData.id}</td>
-                    </tr>
-                    <tr>
-                      <td>name</td>
-                      <td>{employeeData.name}</td>
-                    </tr>
-                    <tr>
-                      <td>Department</td>
-                      <td>{employeeData.department}</td>
-                    </tr>
-                    <tr>
-                      <td>Job Title</td>
-                      <td>{employeeData.job_titles}</td>
-                    </tr>
-                    <tr>
-                      <td>Salary</td>
-                      <td>${employeeData.employee_annual_salary}</td>
-                    </tr>                
-                    </tbody>
-                  </Table>
-                )
-              }}
-            </FetchSingleEmployee>          
+          <Col xs={12} sm={10} className="employee-detail-row">
+          <Panel>
+            <Panel.Heading>
+              <Panel.Title componentClass="h3">
+                <span className="title">Employee Details</span>
+                <Button bsStyle="danger" className="pull-right">Delete</Button>
+                <div className="clearfix"></div>
+              </Panel.Title>
+            </Panel.Heading>
+            <Panel.Body>
+              <Pager>
+                <Pager.Item href="#" onClick={this.getPrevId}>Previous</Pager.Item>{' '}
+                <Pager.Item href="#" onClick={this.getNextId}>Next</Pager.Item>
+              </Pager>
+
+              <FetchSingleEmployee id={this.state.id} >
+                {({ loading, employeeData, error }) => {
+                  if(loading) return <p>Loading</p>;
+                  if(error) return <p>No data loaded.</p> 
+                  if(employeeData) return (
+                    <Table className="employeeDetailTbl">
+                      <tbody>
+                      <tr>
+                        <td className="item">ID</td>
+                        <td>{employeeData.id}</td>
+                      </tr>
+                      <tr>
+                        <td className="item">name</td>
+                        <td>{employeeData.name}</td>
+                      </tr>
+                      <tr>
+                        <td className="item">Department</td>
+                        <td>{employeeData.department}</td>
+                      </tr>
+                      <tr>
+                        <td className="item">Job Title</td>
+                        <td>{employeeData.job_titles}</td>
+                      </tr>
+                      <tr>
+                        <td className="item">Salary</td>
+                        <td>${employeeData.employee_annual_salary}</td>
+                      </tr>                
+                      </tbody>
+                    </Table>
+                  )
+                }}
+              </FetchSingleEmployee>             
+            </Panel.Body>
+          </Panel>        
           </Col>
         </Row>  
       </Grid>

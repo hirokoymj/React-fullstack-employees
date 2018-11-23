@@ -1,45 +1,28 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
-import {Grid, Row, Col, Navbar, Nav, NavItem} from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import cn from 'classnames';
 
-const Header = () =>(
-  <Navbar inverse>
-    <Navbar.Header>
-      <Navbar.Brand>
-        <NavLink to="/">Employee List</NavLink>
-      </Navbar.Brand>
-      <Navbar.Toggle />
-    </Navbar.Header>
-    <Navbar.Collapse>
-      <Nav>
-        <NavItem eventKey={1} href="/form">
-        Create an employee
-        </NavItem>
-      </Nav>  
-    </Navbar.Collapse>    
-
-  </Navbar>
-);
+const Header = (props) => {
+  //console.log(props.history);
+  return(
+    <Navbar inverse>
+      <Navbar.Header>
+        <Navbar.Brand>
+          <a href="/">Employee Dashboard</a>
+        </Navbar.Brand>
+        <Navbar.Toggle />
+      </Navbar.Header>
+      <Navbar.Collapse>
+        <Nav>
+          <NavItem eventKey={1} href="/" className={cn({'active': props.history.location.pathname === '/'})}>
+            Search
+          </NavItem>
+          <NavItem eventKey={2} href="/form" className={cn({'active': props.history.location.pathname === '/form'})}>
+            Create
+          </NavItem>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+  )
+}
 export default Header;
-
-
-
-// <nav class="navbar navbar-inverse navbar-fixed-top" >
-// 	<div class="container" >
-// 		<div class="navbar-header" >
-// 			<a class="navbar-brand"
-// 			   href="/" >Lists Of Things
-// 			</a >
-// 		</div >
-// 	</div >
-// </nav >
-// <Grid>
-// <Row>
-//   <Col xs={12}>
-//     <ul className="nav nav-tabs">
-//       <li><NavLink to="/" activeClassName="active">Dashboard</NavLink></li>
-//       <li><NavLink to="/form" activeClassName="active">Add new employee</NavLink></li>
-//     </ul>
-//   </Col>
-// </Row>
-// </Grid>

@@ -1,0 +1,63 @@
+//
+// Dashboard Page style
+// Mobile First CSS Method
+// Created by Hiroko Y.
+// Date: 2018-11-23
+// --------------------------------------------------
+tr:focus{
+  background-color: lightgray;
+}
+
+.pagination {
+  margin: 10px 0 3px 0;
+}
+.zero-margin{
+  margin: 0;
+}
+.main-content{
+  float: none;
+  margin: 0 auto;
+}
+
+.employeeListTbl{
+  th{
+    text-align: center;
+  }
+  .item-department{
+    line-height: 3em;
+  }
+  .item-employeeId{
+    width: 5%;
+  }
+
+  .fa-sort-up{
+    padding: 11px 3px 0px 3px;
+    vertical-align: middle;
+    //font-size: 40px;
+    &:before{
+      font-size: 30px;
+    }  
+  }
+  .fa-sort-down{
+    font-size: 40px;  
+    &:before{
+      font-size: 30px;
+    }
+  }
+  .sortables {
+    display: inline-block;
+    span:hover{
+      color: #006fcf;
+    }
+  }
+}
+
+/* Desktop (>= 992px)
+-------------------------------------------------- */
+@media (min-width: 992px) {}
+
+/* Desktop (>= 1200px)
+-------------------------------------------------- */
+@media (min-width: 1200px){}
+
+

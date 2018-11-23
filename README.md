@@ -18,5 +18,6 @@ https://powerful-springs-20093.herokuapp.com/
 - Data Source: https://catalog.data.gov/dataset/current-employee-names-salaries-and-position-titles-840f7
 
 
-![](public/images/employee-app.png)
-![](public/images/employee-app2.png)
+![](public/images/dashboardPage.png)
+![](public/images/singleEmployeePage.png)
+![](public/images/createEmployeePage.png)

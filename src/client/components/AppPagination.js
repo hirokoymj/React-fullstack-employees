@@ -24,13 +24,16 @@ export default class AppPagination extends Component {
 
   render() {
     return (
-      <Pagination
-        activePage={this.props.activePage}
-        itemsCountPerPage={100}
-        totalItemsCount={this.state.totalItemsCount}
-        pageRangeDisplayed={10}
-        onChange={this.props.handlePageChange}
-    /> 
+      <div className="text-center">
+        <Pagination
+          activePage={this.props.activePage}
+          itemsCountPerPage={100}
+          totalItemsCount={this.state.totalItemsCount}
+          pageRangeDisplayed={10}
+          onChange={this.props.handlePageChange} 
+          className="margin-bottom-5"
+          /> 
+      </div>
     )
   }
 }
