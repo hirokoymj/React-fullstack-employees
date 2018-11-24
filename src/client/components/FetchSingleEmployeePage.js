@@ -21,6 +21,26 @@ export default class FetchSingleEmployeePage extends Component{
     }));
     this.props.history.push(`/employees/${this.state.id}`);
   }
+  onDelete = (id) =>{
+    fetch(`/api/employees/${id}`,{
+      method: 'DELETE',
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      })
+      .then(res =>res.json())
+      .then(
+        (data) => { // catch Promise resoluve
+          console.log("DELETE:", data);
+          this.props.history.push('/');
+        },
+        (error) =>{ //// catch Promise reject
+          console.log(error);
+        }
+      )
+  }
+ 
   render(){
     return(
       <Grid>
@@ -30,7 +50,7 @@ export default class FetchSingleEmployeePage extends Component{
             <Panel.Heading>
               <Panel.Title componentClass="h3">
                 <span className="title">Employee Details</span>
-                <Button bsStyle="danger" className="pull-right">Delete</Button>
+                <Button bsStyle="danger" className="pull-right" onClick={() => this.onDelete(this.state.id)}>Delete</Button>
                 <div className="clearfix"></div>
               </Panel.Title>
             </Panel.Heading>

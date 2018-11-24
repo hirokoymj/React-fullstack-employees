@@ -16,8 +16,9 @@ export default class DashboardPage extends Component{
     this.fetchEmployees = React.createRef();
   }
   componentDidMount(){    
-    this.onRowHighlight(0)
+    this.onRowHighlight(5)
   }
+
  
   handleKeyDown = (e) =>{
     let code = e.keyCode;
@@ -63,6 +64,7 @@ export default class DashboardPage extends Component{
   }
 
   onRowHighlight = (id) =>{
+    console.log(`onRowHighlight - ${id}`);
     this.rowRefs[id] && this.rowRefs[id].focus(); 
   }    
 
@@ -76,14 +78,16 @@ export default class DashboardPage extends Component{
       <Grid>
         <Row>
           <Col xs={12} md={10} className="main-content">
+            {/* Filter */}
             <FormGroup className="well zero-margin">
               <FormControl type="text" name="search" value={this.state.search} onChange={this.handleChange} placeholder="Search by department..." />
             </FormGroup>
-
+            {/* Pagination */}
             <AppPagination 
               activePage={this.state.activePage}
               handlePageChange={this.handlePageChange}          
             />
+            {/* Employee List */}
             <Table bordered className="employeeListTbl">
             <thead>
               <tr>

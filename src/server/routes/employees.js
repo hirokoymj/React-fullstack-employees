@@ -85,4 +85,22 @@ router.post('/', (req, res)=>{
   })
 });
 
+/**
+ * DELETE an employee.
+ * HTTP Method: DELETE
+  * @example
+ * // URL params: employee's ID, number
+ * http://localhost:3000/api/employees/501
+ */
+router.delete('/:id', (req, res)=>{
+  const id = parseInt(req.params.id);
+
+  Employee.findOneAndDelete({"id": id}, function(err, employee){
+    if(err) return res.status(500).send(err);
+    if(!employee) return res.status(404).send(err);
+    res.json(employee);
+  });
+});
+
+
 module.exports = router; 
