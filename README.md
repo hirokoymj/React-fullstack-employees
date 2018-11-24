@@ -20,4 +20,4 @@ https://powerful-springs-20093.herokuapp.com/
 
 ![](public/images/dashboardPage.png)
 ![](public/images/singleEmployeePage.png)
-![](public/images/createEmployeePage.png)
+![](public/images/createEmployeePage2.png)
