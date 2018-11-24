@@ -18,13 +18,15 @@ export default class EmployeeForm extends React.Component{
       titleOptions: [], //dropdown elements
       departmentOptions: [], //dropdown elements
       firstNameErr: null,
-      lastNameErr: null
+      lastNameErr: null,
+      address: ''
     }
   }
 
   componentDidMount(){
     this.fetchDepartments();
     this.fetchJobTitles();
+    this.firstNameElement.focus()
   }
   handleChange = (e) =>{
     this.setState({
@@ -126,7 +128,7 @@ export default class EmployeeForm extends React.Component{
               </Panel.Heading>
               <Panel.Body>
                 <form onSubmit={this.onSubmit}>
-                  <InputText name="firstName" type="text" formLabel="First Name" validationState={this.state.firstNameErr} value={this.state.firstName} onChange={this.handleChange} />
+                  <InputText name="firstName" type="text" formLabel="First Name" validationState={this.state.firstNameErr} value={this.state.firstName} onChange={this.handleChange} inputRef={el => this.firstNameElement = el} />
                   <InputText name="lastName" type="text" formLabel="Last Name" validationState={this.state.lastNameErr} value={this.state.lastName} onChange={this.handleChange} />
                   <Selectbox name="job_titles" options={this.state.titleOptions} formLabel="Job Titles" value={this.state.job_titles} onChange={this.handleChange}/>    
                   <Selectbox name="department" options={this.state.departmentOptions} formLabel="Department" value={this.state.department} onChange={this.handleChange}/>    
