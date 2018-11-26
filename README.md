@@ -10,11 +10,11 @@ https://powerful-springs-20093.herokuapp.com/
 ## Features
 
 - Pagination
-- React Refs
-- Function as Child Component
 - Form
-- RESTful API 
 - Filter
+- Function as Child Component
+- Callback Refs
+- RESTful API 
 - Data Source: https://catalog.data.gov/dataset/current-employee-names-salaries-and-position-titles-840f7
 
 

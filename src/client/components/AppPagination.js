@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
 import Pagination from "react-js-pagination";
+import $ from "jquery";
 
 export default class AppPagination extends Component { 
   constructor(props) {
     super(props);
     this.state = {
-      totalItemsCount: 0
+      totalItemsCount: 0,
+      activePage: this.props.activePage
     };
   }
 
@@ -13,7 +15,7 @@ export default class AppPagination extends Component {
     fetch('/api/employees/countDocs', {method: "POST"})
       .then(res=>res.json())
       .then((data)=>{
-        console.log(data.count);
+        //console.log(data.count);
         this.setState({
           totalItemsCount: data.count
         });
@@ -22,16 +24,24 @@ export default class AppPagination extends Component {
       });
   }
 
+  componentDidUpdate(prevProps){
+    if(prevProps.activePage !== this.props.activePage){
+      console.log('changed active page!!');
+      this.setState({
+        activePage: this.props.activePage
+      })
+    }
+  }
+
   render() {
     return (
       <div className="text-center">
         <Pagination
-          activePage={this.props.activePage}
+          activePage={this.state.activePage}
           itemsCountPerPage={100}
           totalItemsCount={this.state.totalItemsCount}
           pageRangeDisplayed={10}
           onChange={this.props.handlePageChange} 
-          className="margin-bottom-5"
           /> 
       </div>
     )

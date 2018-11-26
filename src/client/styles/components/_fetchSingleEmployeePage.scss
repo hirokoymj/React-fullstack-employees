@@ -23,8 +23,14 @@
     padding-top:7px;
   }
 }
-// override default style
+// override default bootstrap style
 .pager {
   margin: 10px 0;
 }
-
+.panel-body {
+  position: relative;
+}
+.backToDashboardBtn{
+  position: absolute;
+  top: 25px;
+}

@@ -2626,7 +2626,7 @@
 /*# sourceMappingURL=ReactToastify.css.map */
 
 *:focus {
-  outline: none !important; }
+  outline: none; }
 
 tr:focus {
   background-color: lightgray; }
@@ -2650,21 +2650,12 @@ tr:focus {
 .employeeListTbl .item-employeeId {
   width: 5%; }
 
-.employeeListTbl .fa-sort-up {
-  padding: 11px 3px 0px 3px;
-  vertical-align: middle; }
-  .employeeListTbl .fa-sort-up:before {
-    font-size: 30px; }
-
-.employeeListTbl .fa-sort-down {
-  font-size: 40px; }
-  .employeeListTbl .fa-sort-down:before {
-    font-size: 30px; }
-
-.employeeListTbl .sortables {
-  display: inline-block; }
-  .employeeListTbl .sortables span:hover {
-    color: #006fcf; }
+.employeeListTbl .fa-sort {
+  padding-left: 10px;
+  vertical-align: middle;
+  font-size: 18px; }
+  .employeeListTbl .fa-sort:hover {
+    color: #2780e3; }
 
 /* Desktop (>= 992px)
 -------------------------------------------------- */
@@ -2687,6 +2678,13 @@ tr:focus {
 
 .pager {
   margin: 10px 0; }
+
+.panel-body {
+  position: relative; }
+
+.backToDashboardBtn {
+  position: absolute;
+  top: 25px; }
 
 .navbar {
   position: relative;

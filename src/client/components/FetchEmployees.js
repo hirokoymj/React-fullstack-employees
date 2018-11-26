@@ -1,89 +1,141 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import {Table} from 'react-bootstrap';
 
 export default class FetchEmployees extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      loading: false,
       employees: [],
       error: null,
-      filteredEmployees: [],
-      filteredEmployeesTotal:0
+      activeRow: this.props.activeRow,
+      sortOrderByName: false, //false=acending order, true=decending order
+      sortOrderByTitle: false
     };
+    this.rowRefs = [];
   }
   componentDidMount() {
-    console.log(this.props.page);
-    const page = this.props.page > 0 ? this.props.page : 1;
+    const page = this.props.activePage > 0 ? this.props.activePage : 1;
     this.getEmployeeData(page);
   }
   componentDidUpdate(prevProps){
-    if(prevProps.page !== this.props.page){
-      this.getEmployeeData(this.props.page, this.props.search);
+    if(prevProps.activePage !== this.props.activePage){
+      this.getEmployeeData(this.props.activePage, this.props.search);
     }
-    // if(prevProps.search !== this.props.search){
-    //   console.log('A search changed.');
-    //   //this.state.filterDepartment(this.props.search);
-    //   this.filterDepartment(this.props.search);
-    // }
   }
-  getEmployeeData = (page, search)=>{
-    search = search || '';
+
+  getEmployeeData = (page)=>{
     fetch(`/api/employees?page=${page}`)
       .then(res =>res.json())
       .then(employees =>{
-        // console.log(employees);
-        // console.log(employees.length);
-        const filtered = employees.filter(employee => employee.department.toLowerCase().indexOf(search.toLowerCase()) > -1);
-        const filtered_length = filtered.length;
-
         this.setState({
           employees,
-          filteredEmployees: filtered,
-          filteredEmployeesTotal: filtered_length,
-          activePage: page
-        }) 
+        })
+        let activeRow = this.props.activeRow;
+        this.rowRefs[activeRow] && this.rowRefs[activeRow].focus();         
       })
       .catch(error=>this.setState({error}))     
   }
-
-  getEmployeeDataWithSearch = (page, search)=>{
-    fetch(`/api/employees?page=${page}`)
-      .then(res =>res.json())
-      .then(employees =>{
-        // console.log(employees);
-        // console.log(employees.length);
-        this.setState({
-          employees,
-          filteredEmployees: employees.filter(employee => employee.department.toLowerCase().indexOf(search.toLowerCase()) > -1),
-          activePage: page
-        }) 
-      })
-      .catch(error=>this.setState({error}))     
-  }  
-
-  filterDepartment = (userInput) =>{
-    const filteredEmployees = this.state.employees.filter(employee => employee.department.toLowerCase().indexOf(userInput.toLowerCase()) > -1)
+  changeActiveRow = (index) =>{
     this.setState({
-      filteredEmployees,
-      //filteredEmployeesTotal: filteredEmployees.length
-    });
+      activeRow: index
+    })
+    this.rowRefs[index] && this.rowRefs[index].focus();  
   }
-  sortEmployees = (orderType, fieldName) =>{
-    console.log(`sortEmployees`)
-    let sortedEmployees = [];
-    if(orderType === 'ace'){
-      sortedEmployees = this.state.filteredEmployees.sort((a,b)=> (a[fieldName] < b[fieldName]) ? -1 : 1);
-    }else if(orderType === 'dec'){
-      sortedEmployees = this.state.filteredEmployees.sort((a,b)=> (b[fieldName] < a[fieldName]) ? -1 : 1);
+
+  // Keyboard scroll
+  handleKeyDown = (e) =>{
+    let code = e.keyCode;
+    let tabIndex = e.target.tabIndex;
+    let eId = e.target.id;
+    let maxLen = 100; // default data per page is 100.
+
+    if (code === 13) { //Enter key
+      this.props.history.push(`/employees/${eId}`);
     }
-
-    this.setState({
-      filteredEmployees: sortedEmployees
-    });
+    if(code === 38){ //Up arrow key
+      if(tabIndex === 0) return; //Check if the first row
+      //Set highlighted
+      tabIndex = parseInt(tabIndex)-1;
+      this.changeActiveRow(tabIndex);
+    }
+    if(code === 40){ //Down arrow key
+      if(tabIndex > maxLen) return; //Check if the last row
+      // Set highlighted
+      tabIndex = parseInt(tabIndex)+1;
+      this.changeActiveRow(tabIndex);
+    }
   }
 
+  sortByName = () =>{
+    let employees = [];
+    let sortOrderByName = !this.state.sortOrderByName;
+
+    if(sortOrderByName){ //sort by decending order
+      employees = this.state.employees.sort((a,b)=> (b.name < a.name) ? -1 : 1);
+    }else{ //sort by aecnding order
+      employees = this.state.employees.sort((a,b)=> (a.name < b.name) ? -1 : 1);
+    }
+    // Update component states
+    this.setState({
+      employees,
+      sortOrderByName
+    });
+  }
+  sortByTitle = () =>{
+    let employees = [];
+    let sortOrderByTitle = !this.state.sortOrderByTitle;
+
+    if(sortOrderByTitle){ //sort by decending order
+      employees = this.state.employees.sort((a,b)=> (b.job_titles < a.job_titles) ? -1 : 1);
+    }else{ //sort by aecnding order
+      employees = this.state.employees.sort((a,b)=> (a.job_titles < b.job_titles) ? -1 : 1);
+    }
+    // Update component states
+    this.setState({
+      employees,
+      sortOrderByTitle
+    });
+  }
   render() {
-    const {loading, filteredEmployees, error} = this.state;
-    return this.props.children({ loading, filteredEmployees, error });
+    const {error, employees} = this.state;
+    return(
+      <Table bordered className="employeeListTbl">
+        <thead>
+          <tr>
+            <th>Employee ID</th>
+            <th>
+              Name
+              <span onClick={this.sortByName} className="sortIcon"><i className="fa fa-sort"></i></span>
+            </th>
+            <th>
+              Job Title
+              <span onClick={this.sortByTitle} className="sortIcon"><i className="fa fa-sort"></i></span>
+            </th>
+            <th>Department</th>
+          </tr>
+        </thead>
+        <tbody>
+        {
+          employees.map((employee, index)=>
+            <tr
+              key={`${employee.name}-${employee.id}`}
+              tabIndex={index}
+              ref={ref=>this.rowRefs[index] = ref}
+              onClick={() => this.changeActiveRow(index) }
+              id={employee.id}
+              onKeyDown={this.handleKeyDown}
+            >
+              <td>{employee.id}</td>
+              <td><Link to={`/employees/${employee.id}`}>{employee.name}</Link></td>
+              <td>{employee.job_titles}</td>
+              <td>{employee.department}</td>              
+            </tr>
+          )
+        }
+        </tbody>
+      </Table>
+    )
   }
 }
+
