@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Pagination from "react-js-pagination";
-import $ from "jquery";
+
 
 export default class AppPagination extends Component { 
   constructor(props) {
