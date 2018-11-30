@@ -1,7 +1,10 @@
 {
   "name": "simple-react-full-stack",
   "version": "1.0.0",
-  "description": "Boilerplate to build a full stack web application using React, Node.js, Express and Webpack.",
+  "description": "Fullstack web application using React, Node.js, Express and MongoDB",
+  "engines": {
+    "node":"8.11.1"
+  },
   "main": "src/server/index.js",
   "scripts": {
     "build": "webpack --mode production",
