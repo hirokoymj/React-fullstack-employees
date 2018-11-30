@@ -32,6 +32,7 @@ export default class DashboardPage extends Component{
     }
   }
   
+
   // Clicked on pagination
   handlePageChange = (pageNumber) => {
     this.setState({
@@ -45,7 +46,6 @@ export default class DashboardPage extends Component{
       <Grid>
         <Row>
           <Col xs={12} md={10}>
-            {/* Filter */}
             <AppPagination 
               activePage={this.state.activePage}
               handlePageChange={this.handlePageChange}          

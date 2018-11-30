@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Table} from 'react-bootstrap';
+import {Table, Alert} from 'react-bootstrap';
 
 export default class FetchEmployees extends React.Component {
   constructor(props) {
@@ -26,15 +26,21 @@ export default class FetchEmployees extends React.Component {
 
   getEmployeeData = (page)=>{
     fetch(`/api/employees?page=${page}`)
-      .then(res =>res.json())
+      .then((response) =>{
+        if (!response.ok) throw Error(response.statusText);
+        return response.json();       
+      })
       .then(employees =>{
         this.setState({
           employees,
         })
         let activeRow = this.props.activeRow;
-        this.rowRefs[activeRow] && this.rowRefs[activeRow].focus();         
+        this.rowRefs[activeRow] && this.rowRefs[activeRow].focus();   
+        //throw Error('test to catch error');    
       })
-      .catch(error=>this.setState({error}))     
+      .catch(error=>{
+        this.setState({error});
+      })   
   }
   changeActiveRow = (index) =>{
     this.setState({
@@ -99,8 +105,11 @@ export default class FetchEmployees extends React.Component {
   }
   render() {
     const {error, employees} = this.state;
-    return(
-      <Table bordered className="employeeListTbl">
+    if (error) {
+      return <Alert bsStyle="danger"><h4>System Error:</h4><p> {error.message}</p></Alert>
+    } else {
+      return (
+        <Table bordered className="employeeListTbl">
         <thead>
           <tr>
             <th>Employee ID</th>
@@ -135,7 +144,8 @@ export default class FetchEmployees extends React.Component {
         }
         </tbody>
       </Table>
-    )
-  }
+      );
+    }//end of if
+  }//end of render()
 }
 
