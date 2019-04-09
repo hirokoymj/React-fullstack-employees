@@ -5,7 +5,7 @@
 - Database: **MongoDB**
 
 ## Live Demo:
-https://powerful-springs-20093.herokuapp.com/
+https://react-redux-employee-app.herokuapp.com/
 
 ## Front-end features
 - Pagination
