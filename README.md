@@ -5,13 +5,15 @@
 - Database: **MongoDB**
 
 ## Live Demo:
+
 https://react-redux-employee-app.herokuapp.com/
 
 ## Front-end features
+
 - Pagination
 - Filter
 - Form
-- Keyboard *Down*, *Up* and *Enter* key is avaiable to move employee list.
+- Keyboard _Down_, _Up_ and _Enter_ key is avaiable to move employee list.
 
 ## RESTful API
 
@@ -102,7 +104,6 @@ https://react-redux-employee-app.herokuapp.com/
   </tr>     
 </table>
 
-
 **Delete an employee**
 
 <table style="font-size:13px">
@@ -130,6 +131,24 @@ https://react-redux-employee-app.herokuapp.com/
 </table>
 
 ## Screenshot
+
 ![](public/images/dashboardPage.png)
 ![](public/images/singleEmployeePage.png)
 ![](public/images/createEmployeePage2.png)
+
+[3/13/2020]
+
+## Can Heroku force an application to use SSL/TLS?
+
+ToDo
+
+1. Set up sub domain to cheap-domain-registration ==> test.hirokoymj.com - Done.
+2. Set up Heroku app to a custom domain ==> Done
+3. Try force SSL ==>
+
+## References:
+
+- [Can Heroku force an application to use SSL/TLS?](https://help.heroku.com/J2R1S4T8/can-heroku-force-an-application-to-use-ssl-tls)
+- https://jaketrent.com/post/https-redirect-node-heroku/
+- https://stackoverflow.com/questions/7185074/heroku-nodejs-http-to-https-ssl-forced-redirect
+- https://stackoverflow.com/questions/11104028/process-env-node-env-is-undefined
